@@ -4,6 +4,8 @@ SeqArc is a lossless FASTQ compressor for short- and long-read sequencing data, 
 
 This repository brings together **the benchmark dataset, SeqArc's measured performance, and runnable decompression examples**. You can inspect the inputs and results, download example archives, and restore complete FASTQ files using the supplied decompressor.
 
+**[Download binaries and example archives](https://github.com/BGIResearch/SeqArc/releases/tag/v4.0.0)** · [Linux runtime bundle](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SeqArc-runtime-linux-x86_64.tar.gz) · [Example .arc downloads](#available-examples) · [Setup instructions](docs/downloads.md)
+
 [Dataset](#benchmark-dataset) · [Performance](#benchmark-results) · [Full results and logs](#benchmark-materials) · [Try SeqArc](#try-a-small-example)
 
 ## Benchmark dataset
@@ -116,16 +118,16 @@ Exact download URLs, ZIP members, FASTA sizes and SHA-256 digests are in [exampl
 
 ## Available examples
 
-These examples cover several input types and reference modes. All archives contain complete files; paired examples include both mates.
+These examples cover several input types and reference modes. All archives contain complete files; download both mates for paired examples.
 
-| Example ID | Input | Mode | Archives | Download size |
-| --- | --- | --- | ---: | ---: |
-| `data40_noref` | Illumina fungal ITS community | No reference | 2 | 10.2 MiB |
-| `data25_noref` | DNBSEQ human small RNA | No reference | 1 | 120.9 MiB |
-| `data45_noref` | Illumina E. coli WGS | No reference | 2 | 225.0 MiB |
-| `data45_ref` | Same E. coli input | External reference | 2 | 146.3 MiB |
-| `data46_ref` | Illumina yeast WGS | External reference | 2 | 189.9 MiB |
-| `data28_noref` | ONT full-length cDNA | No reference; optional larger download | 1 | 1.41 GiB |
+| Example ID | Input | Mode | .arc downloads | Download size |
+| --- | --- | --- | --- | ---: |
+| `data40_noref` | Illumina fungal ITS community | No reference | [Mate 1](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data40_noref_SRR30515680_1.fastq.arc) · [Mate 2](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data40_noref_SRR30515680_2.fastq.arc) | 10.2 MiB |
+| `data25_noref` | DNBSEQ human small RNA | No reference | [Download .arc](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data25_noref_DRR1089360.fastq.arc) | 120.9 MiB |
+| `data45_noref` | Illumina E. coli WGS | No reference | [Mate 1](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data45_noref_DRR171213_1.fastq.arc) · [Mate 2](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data45_noref_DRR171213_2.fastq.arc) | 225.0 MiB |
+| `data45_ref` | Same E. coli input | External reference | [Mate 1](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data45_ref_DRR171213_1.fastq.arc) · [Mate 2](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data45_ref_DRR171213_2.fastq.arc) | 146.3 MiB |
+| `data46_ref` | Illumina yeast WGS | External reference | [Mate 1](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data46_ref_SRR30502372_1.fastq.arc) · [Mate 2](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data46_ref_SRR30502372_2.fastq.arc) | 189.9 MiB |
+| `data28_noref` | ONT full-length cDNA | No reference; optional larger download | [Download .arc](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/Data28_noref_SRR36288068_1.fastq.arc) | 1.41 GiB |
 
 The nine core archives total 692.4 MiB; the optional ONT archive is 1.41 GiB. [The manifest](examples/manifest.tsv) gives each file’s source, size and checksum. [Runtime verification](examples/runtime_verification.json) records the decompression checks.
 
