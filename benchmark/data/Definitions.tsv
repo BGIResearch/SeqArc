@@ -25,6 +25,6 @@ MiB/s	Tested gzip input MiB divided by elapsed time
 peak_RSS	Maximum resident set over files in a paired-end configuration
 median_peak_RSS	Median of dataset-level peak resident memory (larger mate peak for a paired dataset) on the exact validated comparison cohort; peaks are not summed.
 profile_*_s	SeqArc log-reported accumulated worker component timing; not an isolated wall-time or causal speed effect
-file–reference unit	One FASTQ file tested against one reference; dataset 36 contributes the same two input files under two references
+file–reference unit	One FASTQ file tested against one recorded reference; dataset 36 contributes its two GRCh38 files once
 native_stream	Tool-specific reported field bytes; labels are retained verbatim and are not harmonized across tools
 comparison_scope	Both without external reference, both with same assigned external reference, within SeqArc modes, or practical cross-mode SeqArc external reference versus SPRING no external reference.
