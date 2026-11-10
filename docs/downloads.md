@@ -4,7 +4,7 @@ The [SeqArc v4.0.0 release](https://github.com/BGIResearch/SeqArc/releases/tag/v
 
 ## Install the runtime
 
-The [runtime bundle](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SeqArc-runtime-linux-x86_64.tar.gz) contains `SeqArcDecompress`, `SeqArcIndex`, checksums and third-party notices. The [release checksums](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SHA256SUMS) cover the bundle and every example archive.
+The [runtime bundle](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SeqArc-runtime-linux-x86_64.tar.gz) contains `SeqArcDecompress`, `SeqArcIndex`, the [research license](../LICENSE), checksums and third-party notices. The [release checksums](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SHA256SUMS) cover the bundle and every example archive.
 
 From the repository root:
 
@@ -74,6 +74,7 @@ parent/
     runtime/
       SeqArcDecompress
       SeqArcIndex
+      LICENSE
       SHA256SUMS
       notices/
     core/                 selected core .arc files

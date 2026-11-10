@@ -6,6 +6,8 @@ This repository brings together **the benchmark dataset, SeqArc's measured perfo
 
 **[Download binaries and example archives](https://github.com/BGIResearch/SeqArc/releases/tag/v4.0.0)** · [Linux runtime bundle](https://github.com/BGIResearch/SeqArc/releases/download/v4.0.0/SeqArc-runtime-linux-x86_64.tar.gz) · [Example .arc downloads](#available-examples) · [Setup instructions](docs/downloads.md)
 
+**Public binaries: non-commercial research only.** See the [research license](LICENSE). Commercial use, redistribution and product bundling require separate written authorization through [DCS Tools](https://tools.dcs.cloud/).
+
 [Dataset](#benchmark-dataset) · [Performance](#benchmark-results) · [Full results and logs](#benchmark-materials) · [Try SeqArc](#try-a-small-example)
 
 ## Benchmark dataset
@@ -137,4 +139,4 @@ All ten example archives restored to the expected FASTQ byte counts and SHA-256 
 
 [Download setup](docs/downloads.md) · [Runtime requirements](docs/runtime-build.md) · [Program usage](docs/usage.md) · [Verification](docs/verification.md) · [Third-party notices](third_party_notices/README.md)
 
-License terms for SeqArc binaries, dataset curation and helper scripts are pending final confirmation.
+The [research license](LICENSE) applies to the public decoder and indexer and is included in the runtime bundle. Third-party components retain their own licenses. Terms for dataset curation and helper scripts remain pending confirmation.
