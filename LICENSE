@@ -1,1 +1,105 @@
+SeqArc Public Decoder and Indexer Research License
 
+Version 1.0
+
+1. Parties and covered software
+
+This license governs the proprietary portions of the unmodified SeqArcDecompress and SeqArcIndex executables distributed under these terms through the official SeqArc repository (https://github.com/BGIResearch/SeqArc) and its releases (the “Software”). “Licensor” means the rights holder granting this license for those proprietary portions. An authorized representative may distribute the Software and this license on Licensor's behalf. “You” means the individual or legal entity exercising the permissions granted here.
+
+The Software is proprietary and is licensed for use, not sold or released as open-source software. Exercising the permissions granted by this license is subject to its conditions. If You accept this license on behalf of an organization, You must be authorized by that organization to do so. Statutory rights and rights independently granted by third-party licenses remain unaffected.
+
+2. Non-commercial research license
+
+Licensor grants You a non-exclusive, non-transferable, non-sublicensable license, without license fees or royalties, to download, install and run the unmodified Software solely for Non-Commercial Research. This license continues until terminated under Section 9.
+
+“Non-Commercial Research” means scientific investigation, reproduction or verification of research findings, research benchmarking, or teaching and demonstration directly related to those activities, conducted without a commercial purpose. It does not include:
+
+- Research, development, testing or evaluation directed toward a commercial product, service, procurement decision or business deployment.
+- Routine business operations, commercial data processing or commercial archive management.
+- Paid processing for customers, fee-based services, or contract or sponsored research undertaken to advance a client's or sponsor's commercial objectives.
+- Operating the Software as a service offered to others for commercial advantage, whether or not a separate charge is made for the Software.
+
+Calling an activity “research,” publishing its results, or conducting it within a university or nonprofit organization does not by itself make it Non-Commercial Research. An ordinary research salary or public or charitable grant does not by itself make otherwise qualifying research commercial.
+
+The licensed functions are decompressing SeqArc archives into plain or gzip-compressed FASTQ, building indexes with SeqArcIndex, and using the documented supporting commands for those functions. No SeqArc archive-encoding function is licensed.
+
+You may make the copies reasonably needed to install, operate and back up the Software for Your permitted research. You may use systems You control or are authorized to use for that research, including shared institutional computing systems and rented computing resources, and may use internal automated workflows and private containers. An organization may permit its personnel to operate its copies on its behalf for the same permitted purpose. Copies installed on shared or rented systems must be used only by You or, where You are an organization, Your personnel acting on Your behalf under this license. Permission to use those systems does not authorize making copies available for use by other persons, legal entities or customers.
+
+You may publish research findings, performance measurements and validation results from permitted use, subject to rights in the underlying data. This does not authorize distributing the Software. Preserve all supplied copyright and third-party notices in permitted copies.
+
+3. Commercial use and separate authorization
+
+This license grants no commercial-use permission, including commercial use of the decoder or indexer alone. Commercial use requires separate written authorization from Licensor. Requests for commercial access or a trial may be submitted through tools.dcs.cloud (https://tools.dcs.cloud/). Submitting a request, downloading the public Software or possessing a SeqArc archive does not itself provide that authorization.
+
+This license grants no right to obtain, use, copy, distribute, modify or sublicense the separate SeqArc compression product or service (the “Compressor”) or its proprietary source code. Licensor remains free to set the Compressor's availability, prices and licensing terms.
+
+A separate written authorization governs the uses it expressly covers. This public license does not amend, replace, renew or extend a DCS Tools or Compressor agreement, waive obligations under it, or continue commercial decompression rights after its expiry. Any right to continue commercial decompression after another license ends must be addressed in separate written authorization.
+
+4. Restrictions on redistribution and use
+
+Except to the extent independently permitted under Section 8 or separately authorized in writing by Licensor, You may not:
+
+- Redistribute, publish, upload, mirror, share, transfer or otherwise supply copies of the Software to another person or legal entity, whether free of charge or for payment.
+- Sell, rent, lease or sublicense the Software, or offer others a right to use it under Your license.
+- Embed, bundle, repackage or supply the Software with another product or distribution, including an installer, application, software development kit, distributed container image, appliance or compression product, whether free or paid.
+- Supply or deploy copies for another organization or customer as a substitute for that recipient obtaining its own copy from the official distribution.
+- Modify, adapt, translate, create derivative software from, reverse engineer, decompile or disassemble Licensor's proprietary portions, or extract them into another program.
+- Use or repurpose Licensor's proprietary code to create SeqArc archives, including through another interface or a modified program.
+
+Permission to make the copies described in Section 2 does not include redistribution or product bundling. Internal workflow integration through documented commands is permitted solely for Non-Commercial Research; it does not authorize external bundling or distribution. Writing gzip-compressed FASTQ during permitted decompression is allowed and is not prohibited SeqArc archive encoding.
+
+You may direct others to the official distribution so that they can obtain the Software independently under the applicable terms.
+
+5. Ownership and reservation of rights
+
+Licensor retains its ownership and intellectual-property rights in the proprietary Software, including applicable copyright, patent, trademark and trade-secret rights. Rights not granted by this license are reserved. No proprietary source code is licensed or required to be disclosed.
+
+Permission concerning Licensor-controlled intellectual property is limited to the permissions expressly granted in this license. No permission is granted under Licensor's patents to implement methods in another program, create SeqArc archives, or make, use or sell a separate SeqArc-compatible compressor. These provisions do not withdraw rights You have independently under applicable law or a third-party license.
+
+You may truthfully identify the Software and describe its use or compatibility. No right to imply Licensor's endorsement, sponsorship or approval, or to claim ownership through the SeqArc name or branding, is granted.
+
+6. Data integrity, backups and outputs
+
+The Software performs decompression, index construction and related format processing. You are responsible for preserving the integrity and availability of Your data and for verifying outputs before relying on them.
+
+Before an operation that may overwrite existing files, You must make appropriate backups. After processing, You must verify the outputs before relying on them. Before deleting original data in reliance on those outputs, including source archives and reference files, You must ensure that verification is complete and that appropriate backups preserve access to the data You need to retain. Use available integrity checks, test decompression or independent comparisons as appropriate. Do not treat an unverified output as a substitute for the only retained copy of source data.
+
+Subject to Section 7, Licensor is not responsible for data loss or corruption attributable to failure to perform these safeguards, underlying hardware, storage systems or the operating environment.
+
+This license gives Licensor no ownership of Your input data or resulting FASTQ and index files. It imposes no additional royalty on those outputs. That does not authorize commercial operation of the Software or override rights in input data or references. Restrictions on redistributing the Software do not themselves prohibit sharing data or outputs that You otherwise have the right to share.
+
+This binary license does not license dataset catalogues, benchmark results, example archives, reference sequences, documentation or scripts. Rights in those materials must be determined separately, even when they appear in the same repository or download.
+
+7. Disclaimer, support and liability
+
+To the fullest extent permitted by applicable law, Licensor supplies the Software in its existing condition without express or implied warranties, including assurances of merchantability, suitability for a particular purpose or freedom from infringement. Licensor does not promise uninterrupted or error-free operation.
+
+This license includes no commitment to provide maintenance, updates, support, security fixes, continued downloads or compatibility with future archive formats. Any additional commitment requires a separate agreement.
+
+To the fullest extent permitted by applicable law, Licensor is not liable for indirect, incidental, special, consequential or punitive losses arising from use of or inability to use the Software, including data loss, sample recollection, sequencing-data regeneration, lost profits, lost work or business interruption.
+
+This research license is provided without charge. To the fullest extent permitted by applicable law, Licensor's aggregate liability for direct losses under this license is limited to zero. This limit does not determine liability under a separate paid agreement.
+
+The exclusions and limitations in this section do not apply to losses directly caused by Licensor's intentional misconduct or gross negligence, or to any liability that applicable law does not permit to be excluded or limited. Nothing here waives mandatory statutory rights or remedies.
+
+8. Third-party components and statutory rights
+
+Third-party components retain their own licenses, identified in the supplied notices. Those licenses govern the relevant components independently and prevail over conflicting restrictions here. Their permissions and obligations, including any modification or redistribution rights, remain intact. They do not grant permission from Licensor to redistribute its proprietary material.
+
+Nothing in this license restricts an activity that applicable law permits despite a contractual restriction, removes independently granted third-party rights, or claims ownership of general ideas, methods or independently developed code. This license's research-only restriction applies to the proprietary Software; it does not change the licenses of third-party components or other materials.
+
+9. Breach and termination
+
+Licensor may terminate this license with immediate effect if You breach any of its terms. Licensor may seek remedies for that breach, including proven losses and reasonable enforcement costs, only to the extent recoverable under applicable law.
+
+On termination, You must stop using the proprietary Software under this license and delete its copies in Your possession or control, except where retention or use is independently required or authorized by applicable law or a separate license. You must cease any unauthorized distribution. Termination does not require deletion of Your data or outputs and does not affect independent third-party rights.
+
+You may terminate this license by ceasing use and deleting the proprietary Software copies held under it. Provisions concerning ownership, reserved rights, separate commercial agreements, third-party rights, warranties, liability and accrued remedies survive termination to the extent relevant.
+
+10. General provisions
+
+This license sets out the public research permissions for the Software only. It does not expand permissions under another agreement. Any different or additional permission must be expressly provided in separate written authorization from Licensor. A later publication of different terms does not by itself amend this license for a copy already licensed under it; future distributions may carry different terms.
+
+The parties should first seek to resolve disputes through good-faith discussions. An unresolved dispute may be submitted to a court having jurisdiction under applicable law. Nothing in this clause prevents seeking urgent relief where the law permits it.
+
+If a provision is unenforceable, the remaining provisions continue to apply to the extent permitted by law. No provision requires an act prohibited by applicable law or waives a right that cannot lawfully be waived.
