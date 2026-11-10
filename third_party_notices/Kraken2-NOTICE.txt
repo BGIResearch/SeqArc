@@ -1,0 +1,17 @@
+Kraken 2 classification components
+
+Upstream: https://github.com/DerrickWood/kraken2
+License reference: v2.1.3, commit 8f82a7ded7816c7ceed5086598b2979f80c970d8
+MIT license: see Kraken2-LICENSE.txt.
+
+Copyright (c) 2017-2023 Derrick Wood (upstream LICENSE).
+Copyright 2013-2023, Derrick Wood <dwood@cs.jhu.edu> (source headers).
+Copyright 2017-2018, Florian Breitwieser (readcounts and HyperLogLog source headers).
+
+The HyperLogLog implementation was originally developed for KrakenUniq.
+The bias-table source credits Florian Breitwieser and identifies bias data
+from Heule et al. (2015).
+
+SeqArc includes local modifications to classification components. The upstream
+reference above identifies the license and attribution source; it is not a
+version claim for the complete SeqArc classifier.

@@ -1,0 +1,53 @@
+[2026-10-30 00:51:28] [info] [SeqArc] qual hist unique:40
+[2026-10-30 00:51:31] [info] [SeqArc] qual method selected: ARTH+model (sample 25092135 -> 10346768, scale 12942.6, est total 133932794134)
+[2026-10-30 00:51:31] [info] [SeqArc] thread split: total=16 gz=2 workers=14 (expand to 16 after read)
+[2026-10-30 00:59:11] [info] [SeqArc] SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_8/WY_reads.fq.gz is end
+[2026-10-30 00:59:11] [info] [SeqArc] ReadFastq done
+[2026-10-30 00:59:11] [info] [SeqArc] read done: expanded encode workers 14 -> 16
+[2026-10-30 00:59:13] [info] [SeqArc] filesz:130270589600, comsz:97497884007, ratio:    1.34
+[2026-10-30 00:59:13] [info] [SeqArc] compress stat
+******************************************************************************************
+compress profile list:
+name                 originSize                 compress                   ratio
+------------------------------------------------------------------------------------------
+Total                306819386239               97497884007                3.15    
+name                 489131159                  97963017                   4.99    
+seq                  153155597471               34311766311                4.46    
+qual                 153155597471               63048882774                2.43    
+seqlen               38120276                   19548113                   1.95    
+******************************************************************************************
+[2026-10-30 00:59:13] [info] [SeqArc] compress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+ReadTime                                  459.81
+ParseTime                                  23.86
+NameTime                                   19.57
+SeqTime                                  1878.71
+AlignTime                                  95.41
+QualTime                                 3840.53
+SeqLenTime                                  1.01
+BlockHashTime                              29.32
+TotalCompressTime                           9.69
+WriteTime                                  62.97
+******************************************************************************************
+[2026-10-30 00:59:13] [info] [SeqArc] align stat
+******************************************************************************************
+mapcount            unmapcount          forward             reverse             
+0                   9530069             0                   0                   
+Total Block Count   Align Block Count   Fqz Block Count                    Ratio
+5858                0                   5858                                0.00
+TotalBase:153146067402 AlignBase:0 DegeBase:0 
+TotalAnchor:0 ShortReads:0 lesshit1:0 lesshit2:0
+******************************************************************************************
+[2026-10-30 00:59:13] [info] [SeqArc] read stat
+******************************************************************************************
+fastq Statistics:
+------------------------------------------------------------------------------------------
+Reads_Num: 9530069
+Reads_Base: 153146067402
+Shortest,Longest: 20,421712
+Mean_len: 16069.78
+GC_Ratio:   41.21
+******************************************************************************************
+[2026-10-30 00:59:13] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc compress -t 16 -i SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_8/WY_reads.fq.gz -o benchmark/logs/Data_8/WY_reads.fq.gz/SeqArc_noref/repeat_01/reads.fastq.arc 

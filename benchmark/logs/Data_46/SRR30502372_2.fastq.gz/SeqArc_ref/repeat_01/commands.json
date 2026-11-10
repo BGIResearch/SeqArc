@@ -1,0 +1,30 @@
+{
+  "compress": [
+    "SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc",
+    "compress",
+    "-r",
+    "SOURCE_ROOT/index/R64.fa",
+    "-t",
+    "16",
+    "-i",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_46/SRR30502372_2.fastq.gz",
+    "-o",
+    "benchmark/logs/Data_46/SRR30502372_2.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc"
+  ],
+  "decompress": [
+    "SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc",
+    "decompress",
+    "--type",
+    "1",
+    "-r",
+    "SOURCE_ROOT/index/R64.fa",
+    "-t",
+    "16",
+    "-i",
+    "benchmark/logs/Data_46/SRR30502372_2.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc",
+    "-o",
+    "benchmark/logs/Data_46/SRR30502372_2.fastq.gz/SeqArc_ref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_46/SRR30502372_2.fastq.gz",
+  "reference_accession": "GCF_000146045.2"
+}

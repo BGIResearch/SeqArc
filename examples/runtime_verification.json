@@ -1,0 +1,160 @@
+{
+  "runtime": "SeqArc decompressor and indexer",
+  "program_SHA256": {
+    "SeqArcDecompress": "61fe691a029e382c11b92a9fec1d4759efac8d4af58696a8bc8372ac977256a9",
+    "SeqArcIndex": "5c8a64a2487f446dc7e2175ff20137b45e5627f021be9ec02eff4edf1d55d44d"
+  },
+  "plain_FASTQ_archives_verified": 10,
+  "fresh_reference_indexes_verified": 2,
+  "gzip_output": {
+    "archive": "Data40_noref_SRR30515680_1.fastq.arc",
+    "gzip_output_bytes": 11365856,
+    "restored_FASTQ_bytes": 47979921,
+    "restored_FASTQ_SHA256": "a2bccc7b88e2bd017118472cbfb7a0387f61b4991ad63a5ec38a0c24891905ec",
+    "verified": true
+  },
+  "examples": [
+    {
+      "example": "data40_noref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data40_noref",
+          "file": "SRR30515680_1.fastq.gz",
+          "FASTQ_bytes": 47979921,
+          "FASTQ_SHA256": "a2bccc7b88e2bd017118472cbfb7a0387f61b4991ad63a5ec38a0c24891905ec",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        },
+        {
+          "example": "data40_noref",
+          "file": "SRR30515680_2.fastq.gz",
+          "FASTQ_bytes": 47979921,
+          "FASTQ_SHA256": "07195ed4134814a7c932d381773815966fda815fcaa837d12c2e18fa2f32de56",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        }
+      ]
+    },
+    {
+      "example": "data25_noref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data25_noref",
+          "file": "DRR1089360.fastq.gz",
+          "FASTQ_bytes": 1265401963,
+          "FASTQ_SHA256": "2d6a6077c07c1d968428ed0b5d384980ecf27b78cb86325afa33f2c2c691ec90",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        }
+      ]
+    },
+    {
+      "example": "data45_noref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data45_noref",
+          "file": "DRR171213_1.fastq.gz",
+          "FASTQ_bytes": 472299699,
+          "FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        },
+        {
+          "example": "data45_noref",
+          "file": "DRR171213_2.fastq.gz",
+          "FASTQ_bytes": 474584677,
+          "FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        }
+      ]
+    },
+    {
+      "example": "data45_ref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data45_ref",
+          "file": "DRR171213_1.fastq.gz",
+          "FASTQ_bytes": 472299699,
+          "FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": "ecoli"
+        },
+        {
+          "example": "data45_ref",
+          "file": "DRR171213_2.fastq.gz",
+          "FASTQ_bytes": 474584677,
+          "FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": "ecoli"
+        }
+      ]
+    },
+    {
+      "example": "data46_ref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data46_ref",
+          "file": "SRR30502372_1.fastq.gz",
+          "FASTQ_bytes": 2592446262,
+          "FASTQ_SHA256": "1464c4495eddb94b9c81f4a339e0df48ce5d3fceda3893acf7aaa08fed761a33",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": "yeast"
+        },
+        {
+          "example": "data46_ref",
+          "file": "SRR30502372_2.fastq.gz",
+          "FASTQ_bytes": 2592446262,
+          "FASTQ_SHA256": "63909255c9077493bc1aac3ca517f1793aa1390505077b21ea8bfb29ec8dd1d1",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": "yeast"
+        }
+      ]
+    },
+    {
+      "example": "data28_noref",
+      "returncode": 0,
+      "verified_files": [
+        {
+          "example": "data28_noref",
+          "file": "SRR36288068_1.fastq.gz",
+          "FASTQ_bytes": 5214064962,
+          "FASTQ_SHA256": "c4aec456af5d29ed805c77807c52c60c87d767713c210b9ed1147a7db616b70f",
+          "verified": true,
+          "downloaded_original_checked": false,
+          "reference": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "ecoli",
+      "accession": "GCF_000005845.2",
+      "FASTA_SHA256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4",
+      "index_SHA256": "db3f5b16d841afab989ca69a1d9394a1627e04c1517d5ce71c064aa8b91abbd5",
+      "rebuilt_with_current_indexer": true
+    },
+    {
+      "id": "yeast",
+      "accession": "GCF_000146045.2",
+      "FASTA_SHA256": "fe42735d3e6242f8c40b457a232940e34ef15eb4502717e54a34ed118face4c1",
+      "index_SHA256": "f48eeace10ef145eb1c81fbab659a355a6484fc44d13a703135972f05e1849f1",
+      "rebuilt_with_current_indexer": true
+    }
+  ]
+}

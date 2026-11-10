@@ -1,0 +1,4 @@
+example-work/
+inputs/
+__pycache__/
+*.download

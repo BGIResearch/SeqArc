@@ -1,0 +1,21 @@
+item	value
+Title	Derived 25-sheet SeqArc supplementary testing data v4, completed 16-thread selected-condition analysis
+Date	9 November 2026
+Data source	Final workbook benchmark_newdata_16t_20261028.xlsx and retained original logs/commands
+Original benchmark workbook SHA-256	1bae43357a687bcc5afff33d3b51e119b499a9b3f47755d6a1bb718acce75e13
+Dataset repository	https://github.com/BGIResearch/SeqArc
+Public catalogue snapshot	Original dataset-project snapshot v1.2.0, commit 3b051a1abe07b1ef6b343ba1340ef3d8390b05ba; not a SeqArc repository revision
+Actual references	S2_References uses the final executed task manifest; catalogue proposals are separate columns
+Missing values	Blank means unrecorded, inapplicable or unverified; see status and Definitions
+Result scope	259 selected planned conditions and 246 validated outcomes in S4_Results; unchanged original benchmark workbook and execution logs retain all recorded history
+File execution ledger	S3_Runs links every principal configuration/input file to its final task and result record; individual mate passes are distinguished from complete configuration passes
+Command-template scope	S3_Commands groups 432 enabled principal file tasks; S3_Runs includes those plus six disabled missing-index file tasks
+Matched scope	S5_PrimaryPairs contains 235 validated comparisons: 151 same-condition between-tool, 43 within-SeqArc and 41 cross-condition SeqArc-reference versus SPRING
+Component scope	S6_Components contains 165 selected SeqArc file runs; S6_ModePairs contains 74 file/reference pairs across 43 datasets
+Native streams	SPRING and CoLoRd report tool-specific fields; Genozip fields not reported in retained logs
+Peak memory	S5_PrimarySummary uses medians of per-dataset peak RSS on exact paired input sets; memory peaks are not summed
+Figure data	V9_CohortPoints and V9_CohortSummary source the main absolute figures; S5_PrimarySummary contains validated pairwise sets
+Timing	Reference acquisition/index construction excluded; in-command reference loading included
+No new experiment	Workbook is a documented transformation of existing final records
+Identity audit	50 of 52 input identities supported at stated metadata scope; Data40/41 archive taxon fields blank, titles identify community/assay; exact Data8 CNGB run verified from saved primary response
+Full source audit	See benchmark/dataset tables, S3_Runs and benchmark/log_provenance.tsv for included identities, executed assignments and traceable source records

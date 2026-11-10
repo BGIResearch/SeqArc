@@ -1,0 +1,22 @@
+{
+  "record": "completed Data6 conversion, 24 October 2026",
+  "path_transformation": "local prefixes replaced by portable filenames in documentation",
+  "sources": [
+    {
+      "filename": "result.json",
+      "SHA256": "71f257b35aa637ae0ba5e286fd6439f1d4582b5f8818b9924991e827722543a4"
+    },
+    {
+      "filename": "run.64_threads.log",
+      "SHA256": "61d8773c1596ecd65f121ce810bc57f426a24d95238976a6324bbc4e9e4f12d6"
+    },
+    {
+      "filename": "final_check.json",
+      "SHA256": "9053b7ca4b0c3bc0772b16c50458d68b0b11a658276857889851abbbedeeaeed"
+    },
+    {
+      "filename": "run.py",
+      "SHA256": "c2e0e0d86033a2fdcbb6e2aa01c1c6338595ae0ec7d3e2bb69048ccae2c7930b"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[2026-10-31 09:17:43] [info] [SeqArc] qual hist unique:4
+[2026-10-31 09:17:44] [info] [SeqArc] qual method selected: BSC(16,160,A) (sample 20185036 -> 1244070, scale 1.7, est total 2082365)
+[2026-10-31 09:17:44] [info] [SeqArc] PerfectMini index SOURCE_ROOT/index/NC_045512.fa.pmini_os_17_12_2 found, skip building.
+[2026-10-31 09:17:44] [info] [SeqArc] PerfectMini index loaded
+[2026-10-31 09:17:44] [info] [SeqArc] thread split: total=16 gz=2 workers=14 (expand to 16 after read)
+[2026-10-31 09:17:44] [info] [SeqArc] SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_42/DRR1051020_2.fastq.gz is end
+[2026-10-31 09:17:44] [info] [SeqArc] ReadFastq done
+[2026-10-31 09:17:44] [info] [SeqArc] read done: expanded encode workers 14 -> 16
+[2026-10-31 09:17:45] [info] [SeqArc] filesz:16849230, comsz:4407263, ratio:    3.82
+[2026-10-31 09:17:45] [info] [SeqArc] compress stat
+******************************************************************************************
+compress profile list:
+name                 originSize                 compress                   ratio
+------------------------------------------------------------------------------------------
+Total                87493074                   4407263                    19.85   
+name                 16294622                   618967                     26.33   
+seq                  35333902                   1470095                    24.04   
+qual                 35333902                   2166742                    16.31   
+seqlen               1061296                    150774                     7.04    
+******************************************************************************************
+[2026-10-31 09:17:45] [info] [SeqArc] compress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+ReadTime                                    0.02
+ParseTime                                   0.02
+NameTime                                    0.11
+SeqTime                                     0.14
+AlignTime                                   0.53
+QualTime                                    1.18
+SeqLenTime                                  0.01
+BlockHashTime                               0.01
+TotalCompressTime                           1.16
+WriteTime                                   0.00
+******************************************************************************************
+[2026-10-31 09:17:45] [info] [SeqArc] align stat
+******************************************************************************************
+mapcount            unmapcount          forward             reverse             
+213375              51949               107705              105670              
+Total Block Count   Align Block Count   Fqz Block Count                    Ratio
+2                   2                   0                                   1.00
+TotalBase:35068578 AlignBase:27567110 DegeBase:39627 
+TotalAnchor:0 ShortReads:0 lesshit1:0 lesshit2:0
+******************************************************************************************
+[2026-10-31 09:17:45] [info] [SeqArc] read stat
+******************************************************************************************
+fastq Statistics:
+------------------------------------------------------------------------------------------
+Reads_Num: 265324
+Reads_Base: 35068578
+Shortest,Longest: 35,151
+Mean_len:  132.17
+GC_Ratio:   40.53
+******************************************************************************************
+[2026-10-31 09:17:45] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc compress -r SOURCE_ROOT/index/NC_045512.fa -t 16 -i SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_42/DRR1051020_2.fastq.gz -o benchmark/logs/Data_42/DRR1051020_2.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc 
+[2026-10-31 09:17:45] [info] [SeqArc] [PerfectMiniRef] Align stats: total=265324 L1_hit=213375(80.42%) L2_hit=0(0.00%) miss=51949(19.58%) indel_hit=3545(1.66% of 213375 hits)

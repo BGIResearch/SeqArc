@@ -1,0 +1,34 @@
+dataset	run	tool	raw_tool	reference	stratum	row	status	reason_kind	reason	status_cell	reason_cell	status_en	reason_category_en	exception_summary_en	provenance_note
+7	ERR14732808	CoLoRd_ref	CoLoRd_ref	GRCh38	long	64	失败	timeout_or_terminated	ERR14732808.fastq.gz: 压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。	result!U64	result!V64	failed	compression timeout or manual termination, as recorded	CoLoRd reference-mode compression timed out at 3,600 s.	
+8	CNR1409093	Genozip_noref	Genozip_noref		long	69	失败	restore_mismatch	"WY_reads.fq.gz: 本轮为4h限时重跑；历史失败（已归档）：Restored FASTQ bytes do not match the input FASTQ stream
+WY_reads.fq.gz: 解压还原校验失败：原始FASTQ 306,819,386,239 字节，恢复文件 306,818,425,596 字节；XXH3-128不一致"	result!U69	result!V69	failed	restored FASTQ byte count or digest mismatch	Genozip reference-free restored FASTQ differs from input: 306,818,425,596 versus 306,819,386,239 bytes; XXH3-128 mismatch.	
+8	CNR1409093	Genozip_ref	Genozip_ref	GRCh38	long	73	失败	restore_mismatch	"WY_reads.fq.gz: 本轮为4h限时重跑；历史失败（已归档）：Restored FASTQ bytes do not match the input FASTQ stream
+WY_reads.fq.gz: 解压还原校验失败：原始FASTQ 306,819,386,239 字节，恢复文件 306,818,425,596 字节；XXH3-128不一致"	result!U73	result!V73	failed	restored FASTQ byte count or digest mismatch	Genozip reference-mode restored FASTQ differs from input: 306,818,425,596 versus 306,819,386,239 bytes; XXH3-128 mismatch.	
+8	CNR1409093	CoLoRd_ref	CoLoRd_ref	GRCh38	long	74	失败	timeout_or_terminated	WY_reads.fq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。	result!U74	result!V74	failed	compression timeout or manual termination, as recorded	CoLoRd reference-mode compression timed out at 14,400 s on the retained attempt.	
+10	SRR8906645	Genozip_ref	Genozip_ref	B73	short_large	92	异常	timeout_or_terminated	"SRR8906645_1.fastq.gz: 已取消重跑；历史异常（已归档）：压缩长时间未结束：实际运行22323.87秒，超过新设3600秒上限；按用户要求终止，待手工复测确认。
+SRR8906645_1.fastq.gz: 异常：压缩运行22323.87秒（约6小时12分钟）仍未结束，已终止；按用户要求不再重跑。
+SRR8906645_2.fastq.gz: 本轮为4h限时重跑；历史失败（已归档）：压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。
+SRR8906645_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.03秒），已终止该操作；待手工复测确认。
+配对进度：SRR8906645_1.fastq.gz：失败；SRR8906645_2.fastq.gz：失败"	result!U92	result!V92	abnormal or terminated	compression timeout or manual termination, as recorded	Genozip reference-mode first mate was manually terminated after 22,323.87 s without completion; the second mate timed out at 14,400 s on retry.	Active final result and archived command/timeout evidence have separate locators in S3_Runs.
+12	SRR19440963	Genozip_ref	Genozip_ref	Pabies01	short_small	110	已注释	missing_reference_index	"SRR19440963_1.fastq.gz: missing index: [path redacted]
+SRR19440963_2.fastq.gz: missing index: [path redacted]"	result!U110	result!V110	not run: unavailable reference index	required reference index unavailable	Genozip reference-mode configuration was not run because its reference index was unavailable.	
+16	ERR9904291	SPRING	SPRING		short_large	143	失败	timeout_or_terminated	"ERR9904291_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。
+配对进度：ERR9904291_1.fastq.gz：通过；ERR9904291_2.fastq.gz：失败"	result!U143	result!V143	failed	compression timeout or manual termination, as recorded	SPRING second mate timed out at 14,400 s; the first mate passed individually, but the paired configuration did not pass.	
+16	ERR9904291	Genozip_ref	Genozip_ref	Renan	short_large	146	失败	timeout_or_terminated	"ERR9904291_1.fastq.gz: 本轮为4h限时重跑；历史失败（已归档）：压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。
+ERR9904291_1.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.01秒），已终止该操作；待手工复测确认。
+ERR9904291_2.fastq.gz: 本轮为4h限时重跑；历史失败（已归档）：压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。
+ERR9904291_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。
+配对进度：ERR9904291_1.fastq.gz：失败；ERR9904291_2.fastq.gz：失败"	result!U146	result!V146	failed	compression timeout or manual termination, as recorded	Genozip reference-mode compression timed out at 14,400 s for both mates on retry.	
+17	SRR14993639	Genozip_ref	Genozip_ref	SolTub	short_large	155	已注释	missing_reference_index	"SRR14993639_1.fastq.gz: missing index: [path redacted]
+SRR14993639_2.fastq.gz: missing index: [path redacted]"	result!U155	result!V155	not run: unavailable reference index	required reference index unavailable	Genozip reference-mode configuration was not run because its reference index was unavailable.	
+30	SRR19066659	SPRING	SPRING		short_large	273	失败	timeout_or_terminated	"SRR19066659_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。
+配对进度：SRR19066659_1.fastq.gz：通过；SRR19066659_2.fastq.gz：失败"	result!U273	result!V273	failed	compression timeout or manual termination, as recorded	SPRING second mate timed out at 14,400 s; the first mate passed individually, but the paired configuration did not pass.	
+33	SRR29351083	SPRING	SPRING		short_large	296	失败	timeout_or_terminated	"SRR29351083_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.02秒），已终止该操作；待手工复测确认。
+配对进度：SRR29351083_1.fastq.gz：通过；SRR29351083_2.fastq.gz：失败"	result!U296	result!V296	failed	compression timeout or manual termination, as recorded	SPRING second mate timed out at 14,400 s; the first mate passed individually, but the paired configuration did not pass.	
+45	DRR171213	Genozip_ref	Genozip_ref	ASM584	short_small	403	已注释	missing_reference_index	"DRR171213_1.fastq.gz: missing index: [path redacted]
+DRR171213_2.fastq.gz: missing index: [path redacted]"	result!U403	result!V403	not run: unavailable reference index	required reference index unavailable	Genozip reference-mode configuration was not run because its reference index was unavailable.	
+50	DRR1003638	Genozip_ref	Genozip_ref_UHGG	UHGG	short_large	461	失败	timeout_or_terminated	"DRR1003638_1.fastq.gz: 本轮为4h限时重跑；历史失败（已归档）：压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。
+DRR1003638_1.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。
+DRR1003638_2.fastq.gz: 本轮为4h限时重跑；历史失败（已归档）：压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。
+DRR1003638_2.fastq.gz: 压缩超时：超过14400秒上限（实际运行14400.00秒），已终止该操作；待手工复测确认。
+配对进度：DRR1003638_1.fastq.gz：失败；DRR1003638_2.fastq.gz：失败"	result!U461	result!V461	failed	compression timeout or manual termination, as recorded	Genozip reference-mode compression timed out at 14,400 s for both mates on retry.	

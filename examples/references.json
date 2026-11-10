@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ecoli",
+    "accession": "GCF_000005845.2",
+    "assembly_version": "2",
+    "download_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_000005845.2/download?include_annotation_type=GENOME_FASTA",
+    "zip_member": "ncbi_dataset/data/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna",
+    "FASTA_bytes": 4699745,
+    "FASTA_SHA256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4",
+    "same_as_benchmark_FASTA": true,
+    "fresh_public_download_verified": true
+  },
+  {
+    "id": "yeast",
+    "accession": "GCF_000146045.2",
+    "assembly_version": "2",
+    "download_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_000146045.2/download?include_annotation_type=GENOME_FASTA",
+    "zip_member": "ncbi_dataset/data/GCF_000146045.2/GCF_000146045.2_R64_genomic.fna",
+    "FASTA_bytes": 12310392,
+    "FASTA_SHA256": "fe42735d3e6242f8c40b457a232940e34ef15eb4502717e54a34ed118face4c1",
+    "same_as_benchmark_FASTA": true,
+    "fresh_public_download_verified": true
+  }
+]

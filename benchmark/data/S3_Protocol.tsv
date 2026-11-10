@@ -1,0 +1,23 @@
+item	recorded_value_or_definition	basis
+requested_threads	16	threads requested where supported; see each command
+planned_replicates	1	final run configuration
+execution	serial	final run configuration
+compute	dual Intel Xeon Gold 6442Y; 48 physical/96 logical cores	author-confirmed machine
+memory	approximately 376 GiB	author-confirmed machine
+storage	Lustre	author-confirmed machine
+input_format	gzip FASTQ	direct input to timed command; Data 6 converted from BAM before benchmark
+decompression_output	plain FASTQ	final run configuration
+hash_check	XXH3-128 plus full output byte count	final run configuration and result records
+reference_preparation	External FASTA acquisition, index construction and storage excluded; in-command reference loading included. SPRING internal short-read reference construction is part of its timed command and archive.	in-command reference loading included
+timeout_policy	14,400 s separately per file compression and decompression; retained Data 7 CoLoRd-ref 3,600-s and Data 10 Genozip-ref manual termination 22,323.87-s exceptions recorded in S7	final run configuration and individual recorded outcomes
+paired_end_aggregation	file sizes, wall time and CPU summed; peak RSS max	final analysis derivation
+compression_ratio	uncompressed FASTQ bytes / archive bytes	final analysis derivation
+gzip_relative_ratio	gzip input bytes / archive bytes	final analysis derivation
+throughput_MiB_s	gzip input bytes / wall time / 2^20	final analysis derivation
+CPU_seconds	user + system CPU seconds	final analysis derivation
+average_occupied_cores	CPU seconds / wall time	final analysis derivation
+short_group_rule	mean gzip input size per file below 0.5 GiB, else larger	exploratory grouping; not causal threshold
+Genozip_version	13.0.8	13.0.8 was the latest version author could obtain without a commercial agreement; not an assertion about later versions generally
+SPRING_version	executable does not report version	Author-reported latest obtainable executable; executable does not print version
+inclusion_boundary	Native gzip FASTQ compression; whole-FASTQ lossless decompression; plain FASTQ output permitted for wider tool compatibility	Evaluation design; whole-file tested operation
+UHGG_reference	UHGG v2.0.2; 4,744 representative-genome .fna files concatenated into one FASTA; historical assembly receipt unavailable	Author confirmation; version and representative count also in official MGnify catalogue

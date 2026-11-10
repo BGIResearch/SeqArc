@@ -1,0 +1,29 @@
+{
+  "compress": [
+    "spring",
+    "-c",
+    "-g",
+    "-t",
+    "16",
+    "-i",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_51/SRR27931704_2.fastq.gz",
+    "-o",
+    "benchmark/logs/Data_51/SRR27931704_2.fastq.gz/SPRING/repeat_01/reads.spring",
+    "-w",
+    "benchmark/logs/Data_51/SRR27931704_2.fastq.gz/SPRING/repeat_01/work"
+  ],
+  "decompress": [
+    "spring",
+    "-d",
+    "-t",
+    "16",
+    "-i",
+    "benchmark/logs/Data_51/SRR27931704_2.fastq.gz/SPRING/repeat_01/reads.spring",
+    "-o",
+    "benchmark/logs/Data_51/SRR27931704_2.fastq.gz/SPRING/repeat_01/restored.fastq",
+    "-w",
+    "benchmark/logs/Data_51/SRR27931704_2.fastq.gz/SPRING/repeat_01/work"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_51/SRR27931704_2.fastq.gz",
+  "reference_accession": ""
+}

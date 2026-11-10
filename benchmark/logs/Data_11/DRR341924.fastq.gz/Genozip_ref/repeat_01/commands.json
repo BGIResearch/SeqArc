@@ -1,0 +1,24 @@
+{
+  "compress": [
+    "genozip",
+    "--reference",
+    "SOURCE_ROOT/index/GRCh38.ref.genozip",
+    "-@",
+    "16",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_11/DRR341924.fastq.gz",
+    "-o",
+    "benchmark/logs/Data_11/DRR341924.fastq.gz/Genozip_ref/repeat_01/reads.genozip"
+  ],
+  "decompress": [
+    "genounzip",
+    "--reference",
+    "SOURCE_ROOT/index/GRCh38.ref.genozip",
+    "-@",
+    "16",
+    "benchmark/logs/Data_11/DRR341924.fastq.gz/Genozip_ref/repeat_01/reads.genozip",
+    "-o",
+    "benchmark/logs/Data_11/DRR341924.fastq.gz/Genozip_ref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_11/DRR341924.fastq.gz",
+  "reference_accession": "GCF_000001405.39"
+}

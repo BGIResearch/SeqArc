@@ -1,0 +1,16 @@
+[2026-10-30 21:13:11] [info] [SeqArc] PerfectMini index loaded
+[2026-10-30 21:14:42] [info] [SeqArc] decompress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+DecodeTime                                  4.01
+NameTime                                    0.01
+QualTime                                    0.04
+ReadTime                                   11.73
+SeqLenTime                                  3.91
+SeqTime                                     0.01
+WriteTime                                  90.64
+RecoverTime                              1414.96
+WaitBufTime                                 0.00
+******************************************************************************************
+[2026-10-30 21:14:42] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc decompress --type 1 -r SOURCE_ROOT/index/SolTub.fa -t 16 -i benchmark/logs/Data_17/SRR14993639_1.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc -o benchmark/logs/Data_17/SRR14993639_1.fastq.gz/SeqArc_ref/repeat_01/restored.fastq 

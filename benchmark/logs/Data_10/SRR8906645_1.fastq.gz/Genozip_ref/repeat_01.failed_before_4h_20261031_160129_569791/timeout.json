@@ -1,0 +1,16 @@
+{
+  "stage": "compress",
+  "timeout_limit_seconds": 3600,
+  "elapsed_seconds": 22323.87,
+  "stopped_at": "2026-10-30T09:46:25.717031+08:00",
+  "reason": "压缩长时间未结束：实际运行22323.87秒，超过新设3600秒上限；按用户要求终止，待手工复测确认。",
+  "termination": "manual SIGKILL after user request",
+  "terminated_pids": [
+    533660
+  ],
+  "gnu_time_output": [
+    "Command terminated by signal 9",
+    "22323.87\t338108.88\t1917.08\t2208832\t1523%"
+  ],
+  "partial_archive_bytes": null
+}

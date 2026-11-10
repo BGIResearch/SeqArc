@@ -1,0 +1,6 @@
+executable	recorded_or_confirmed_version	version_evidence	tested_binary_bytes	tested_binary_XXH3_128	binary_source_tree_correspondence
+SeqArc	4.0.0	recorded in final run configuration	40726104	1d71b8fe26702576f16153a9ad45f5a9	unconfirmed for SeqArc
+genozip	13.0.8	author confirmation; binary identity in final run configuration	3312232	92a9ffca441e93cc547bac0d9c75f750	not established by binary digest alone
+genounzip	13.0.8	author confirmation; binary identity in final run configuration	3312232	92a9ffca441e93cc547bac0d9c75f750	not established by binary digest alone
+spring	not reported by executable	author confirmation: latest obtainable copy at benchmark time	25390472	f1009634465910d2af37236a4db84563	not established by binary digest alone
+colord	1.2.1	recorded in final run configuration	5096496	05b1e79e0b7714c40aa78467fb35bd4c	not established by binary digest alone

@@ -1,0 +1,16 @@
+[2026-10-30 03:12:14] [info] [SeqArc] PerfectMini index loaded
+[2026-10-30 03:12:25] [info] [SeqArc] decompress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+DecodeTime                                  0.41
+NameTime                                    0.00
+QualTime                                    0.00
+ReadTime                                    0.25
+SeqLenTime                                  0.41
+SeqTime                                     0.00
+WriteTime                                  10.51
+RecoverTime                               159.16
+WaitBufTime                                 0.00
+******************************************************************************************
+[2026-10-30 03:12:25] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc decompress --type 1 -r SOURCE_ROOT/index/GRCh38.fa -t 16 -i benchmark/logs/Data_9/ERR12411150_1.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc -o benchmark/logs/Data_9/ERR12411150_1.fastq.gz/SeqArc_ref/repeat_01/restored.fastq 

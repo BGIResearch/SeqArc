@@ -1,0 +1,9 @@
+{
+  "stage": "compress",
+  "timeout_limit_seconds": 3600.0,
+  "elapsed_seconds": 3600.002526314929,
+  "reason": "压缩超时：超过3600秒上限（实际运行3600.00秒），已终止该操作；待手工复测确认。",
+  "stopped_at": "2026-10-31T15:04:48.180330+08:00",
+  "termination": "SIGKILL process group",
+  "process_group_id": 519031
+}

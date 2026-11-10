@@ -1,0 +1,22 @@
+{
+  "compress": [
+    "colord",
+    "compress-pbhifi",
+    "-q",
+    "org",
+    "-i",
+    "org",
+    "-t",
+    "16",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_22/SRR14728885_subreads.fastq.gz",
+    "benchmark/logs/Data_22/SRR14728885_subreads.fastq.gz/CoLoRd_noref/repeat_01/reads.colord"
+  ],
+  "decompress": [
+    "colord",
+    "decompress",
+    "benchmark/logs/Data_22/SRR14728885_subreads.fastq.gz/CoLoRd_noref/repeat_01/reads.colord",
+    "benchmark/logs/Data_22/SRR14728885_subreads.fastq.gz/CoLoRd_noref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_22/SRR14728885_subreads.fastq.gz",
+  "reference_accession": ""
+}

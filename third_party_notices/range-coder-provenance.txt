@@ -1,0 +1,4 @@
+// Copyright Eugene Shelwien.
+// Release into public domain.
+
+// Modifications by James Bonfield (2019)

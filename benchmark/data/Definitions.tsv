@@ -1,0 +1,30 @@
+term	definition
+dataset	Public catalogue Data ID; one selected input unit
+reference_key	Local reference FASTA stem used to distinguish actual executed assignments
+public_source_format	Format of public catalogue source object; Data 6 is BAM
+tested_gzip_bytes	Bytes of prepared gzip FASTQ input passed to timed command
+tested_plain_FASTQ_bytes	Decompressed input FASTQ byte count
+catalogue_proposed_accession_set	Candidate accession labels in published v1.2.0 catalogue; not timed run assignment
+recorded_reference_accession	Accession label in executed task manifest; does not prove full FASTA byte identity
+status	Final workbook status; only fully passed configurations enter matched performance summaries
+status_en	English rendering of the original workbook status; Chinese source text remains in status
+file_result_status	Per-file result state; can be passed when the paired dataset configuration failed
+enabled_task_count	S3_Commands counts enabled principal file tasks only; S3_Runs also includes six disabled missing-index file tasks
+configuration_status_en	Dataset–tool–mode status from final workbook; eligibility for paired summaries requires full configuration to pass
+reported_timeout_cap_s	Timeout cap parsed from that file's retained result reason, not inferred from current global configuration
+reported_elapsed_s	Elapsed time expressly reported in that file's failure reason, including manual termination
+reason_category_en	Faithful English rendering of recorded failure category; original Chinese reason remains in reason
+exception_summary_en	English summary of the individual recorded exceptional outcome; the original reason remains authoritative
+blank	Not recorded, not applicable or not independently established according to adjacent status/definition; never an imputed zero
+CR	Compression ratio = uncompressed FASTQ bytes / archive bytes
+G/A	gzip-relative ratio = tested gzip bytes / archive bytes
+pooled_ratio	Ratio of relevant sums over exactly the matched configurations
+median_ratio	Median of individual matched-configuration ratios
+CPU_seconds	User plus system time
+MiB/s	Tested gzip input MiB divided by elapsed time
+peak_RSS	Maximum resident set over files in a paired-end configuration
+median_peak_RSS	Median of dataset-level peak resident memory (larger mate peak for a paired dataset) on the exact validated comparison cohort; peaks are not summed.
+profile_*_s	SeqArc log-reported accumulated worker component timing; not an isolated wall-time or causal speed effect
+file–reference unit	One FASTQ file tested against one reference; dataset 36 contributes the same two input files under two references
+native_stream	Tool-specific reported field bytes; labels are retained verbatim and are not harmonized across tools
+comparison_scope	Both without external reference, both with same assigned external reference, within SeqArc modes, or practical cross-mode SeqArc external reference versus SPRING no external reference.

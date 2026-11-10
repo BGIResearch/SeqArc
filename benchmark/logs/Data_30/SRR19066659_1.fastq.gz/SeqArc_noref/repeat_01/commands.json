@@ -1,0 +1,26 @@
+{
+  "compress": [
+    "SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc",
+    "compress",
+    "-t",
+    "16",
+    "-i",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_30/SRR19066659_1.fastq.gz",
+    "-o",
+    "benchmark/logs/Data_30/SRR19066659_1.fastq.gz/SeqArc_noref/repeat_01/reads.fastq.arc"
+  ],
+  "decompress": [
+    "SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc",
+    "decompress",
+    "--type",
+    "1",
+    "-t",
+    "16",
+    "-i",
+    "benchmark/logs/Data_30/SRR19066659_1.fastq.gz/SeqArc_noref/repeat_01/reads.fastq.arc",
+    "-o",
+    "benchmark/logs/Data_30/SRR19066659_1.fastq.gz/SeqArc_noref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_30/SRR19066659_1.fastq.gz",
+  "reference_accession": ""
+}

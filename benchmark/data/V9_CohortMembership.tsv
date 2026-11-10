@@ -1,0 +1,83 @@
+stratum	comparison	dataset	run	species	technology	gzip_GiB_per_file	external_reference_assignment
+short_small	no_external_reference	12	SRR19440963	Picea abies	Illumina	0.08278295025229454	
+short_small	no_external_reference	13	DRR095727	Chenopodium quinoa	Illumina	0.26634076284244657	
+short_small	no_external_reference	25	DRR1089360	Homo sapiens	DNBSEQ	0.2717132121324539	
+short_small	no_external_reference	29	SRR6520293	Mus musculus	Illumina	0.04561437387019396	
+short_small	no_external_reference	32	SRR19066668	Homo sapiens	Illumina	0.08042859006673098	
+short_small	no_external_reference	40	SRR30515680	Rhizosphere-soil fungal community	Illumina	0.009000623133033514	
+short_small	no_external_reference	41	SRR30515673	Rhizosphere-soil bacterial community	Illumina	0.00834300322458148	
+short_small	no_external_reference	42	DRR1051020	Severe acute respiratory syndrome coronavirus 2	Illumina	0.014696993865072727	
+short_small	no_external_reference	43	ERR7749063	freshwater metagenome	Illumina	0.0031800675205886364	
+short_small	no_external_reference	44	ERR11252400	Mycobacterium tuberculosis	Illumina	0.25577164720743895	
+short_small	no_external_reference	45	DRR171213	Escherichia coli str. K-12 substr. MG1655	Illumina	0.1602212805300951	
+short_small	no_external_reference	46	SRR30502372	Saccharomyces cerevisiae	Illumina	0.4817787613719702	
+short_small	reference_options	13	DRR095727	Chenopodium quinoa	Illumina	0.26634076284244657	ASM168347
+short_small	reference_options	25	DRR1089360	Homo sapiens	DNBSEQ	0.2717132121324539	GRCh38
+short_small	reference_options	29	SRR6520293	Mus musculus	Illumina	0.04561437387019396	GRCm38
+short_small	reference_options	42	DRR1051020	Severe acute respiratory syndrome coronavirus 2	Illumina	0.014696993865072727	NC_045512
+short_small	reference_options	44	ERR11252400	Mycobacterium tuberculosis	Illumina	0.25577164720743895	ASM19595
+short_small	reference_options	46	SRR30502372	Saccharomyces cerevisiae	Illumina	0.4817787613719702	R64
+short_large	no_external_reference	1	ERR17003126	Homo sapiens	DNBSEQ	34.385169233195484	
+short_large	no_external_reference	2	ERR16794642	Homo sapiens	DNBSEQ	31.077087589073926	
+short_large	no_external_reference	3	SRR33329596	Homo sapiens	DNBSEQ	22.370973667129874	
+short_large	no_external_reference	4	ERR15383198	Homo sapiens	Illumina	7.382483709603548	
+short_large	no_external_reference	9	ERR12411150	Homo sapiens	Illumina	1.1246164529584348	
+short_large	no_external_reference	10	SRR8906645	Zea mays subsp. mays	Illumina	11.214122062548995	
+short_large	no_external_reference	11	DRR341924	Homo sapiens	Ion Torrent	1.0751153277233243	
+short_large	no_external_reference	14	SRR24804436	Sus scrofa	DNBSEQ	4.665339489001781	
+short_large	no_external_reference	15	ERR14032264	Mus musculus	Illumina	22.507881401572376	
+short_large	no_external_reference	17	SRR14993639	Solanum tuberosum	Illumina	24.35013515688479	
+short_large	no_external_reference	18	DRR1000971	Penaeus vannamei	DNBSEQ	8.598936452530324	
+short_large	no_external_reference	19	ERR13943038	Gallus gallus	DNBSEQ	6.675978396553546	
+short_large	no_external_reference	23	ERR10030615	Homo sapiens	DNBSEQ	1.7778455065563321	
+short_large	no_external_reference	24	SRR14627767	Arabidopsis thaliana	Illumina	1.6914150044322014	
+short_large	no_external_reference	26	DRR1069746	Homo sapiens	Illumina	0.8360059969127178	
+short_large	no_external_reference	27	SRR30608496	Homo sapiens	Element AVITI	2.143737142905593	
+short_large	no_external_reference	31	SRR19066665	Homo sapiens	Illumina	8.677264181431383	
+short_large	no_external_reference	34	SRR30495077	Homo sapiens	Illumina	1.9644402428530157	
+short_large	no_external_reference	35	DRR1000045	Oryza sativa	Illumina	1.5777477100491524	
+short_large	no_external_reference	36	SRR26362943	Homo sapiens	Illumina	0.5231667999178171	
+short_large	no_external_reference	37	SRR30894055	Saccharomyces cerevisiae	Illumina	3.294206808321178	
+short_large	no_external_reference	38	SRR34546226	Homo sapiens	Ultima UG100	3.492271263152361	
+short_large	no_external_reference	39	DRR1009870	Oryza sativa	Illumina	4.413150378502905	
+short_large	no_external_reference	48	DRR1003246	food fermentation metagenome	Illumina	1.9249140294268727	
+short_large	no_external_reference	49	DRR1000746	soil metagenome	Illumina	3.490923348814249	
+short_large	no_external_reference	50	DRR1003638	human gut metagenome	Illumina	1.457798920571804	
+short_large	no_external_reference	51	SRR27931704	food metagenome	Illumina	0.9763725786469877	
+short_large	no_external_reference	52	ERR2189808	Cricetulus griseus	Illumina	18.505805568303913	
+short_large	reference_options	1	ERR17003126	Homo sapiens	DNBSEQ	34.385169233195484	GRCh38
+short_large	reference_options	2	ERR16794642	Homo sapiens	DNBSEQ	31.077087589073926	GRCh38
+short_large	reference_options	3	SRR33329596	Homo sapiens	DNBSEQ	22.370973667129874	GRCh38
+short_large	reference_options	4	ERR15383198	Homo sapiens	Illumina	7.382483709603548	GRCh38
+short_large	reference_options	9	ERR12411150	Homo sapiens	Illumina	1.1246164529584348	GRCh38
+short_large	reference_options	11	DRR341924	Homo sapiens	Ion Torrent	1.0751153277233243	GRCh38
+short_large	reference_options	14	SRR24804436	Sus scrofa	DNBSEQ	4.665339489001781	Sscrofa11
+short_large	reference_options	15	ERR14032264	Mus musculus	Illumina	22.507881401572376	GRCm38
+short_large	reference_options	18	DRR1000971	Penaeus vannamei	DNBSEQ	8.598936452530324	ASM4276789
+short_large	reference_options	19	ERR13943038	Gallus gallus	DNBSEQ	6.675978396553546	GRCg7b
+short_large	reference_options	23	ERR10030615	Homo sapiens	DNBSEQ	1.7778455065563321	GRCh38
+short_large	reference_options	24	SRR14627767	Arabidopsis thaliana	Illumina	1.6914150044322014	TAIR10
+short_large	reference_options	26	DRR1069746	Homo sapiens	Illumina	0.8360059969127178	GRCh38
+short_large	reference_options	27	SRR30608496	Homo sapiens	Element AVITI	2.143737142905593	GRCh38
+short_large	reference_options	31	SRR19066665	Homo sapiens	Illumina	8.677264181431383	GRCh38
+short_large	reference_options	34	SRR30495077	Homo sapiens	Illumina	1.9644402428530157	GRCh38
+short_large	reference_options	35	DRR1000045	Oryza sativa	Illumina	1.5777477100491524	ASM1463603
+short_large	reference_options	36	SRR26362943	Homo sapiens	Illumina	0.5231667999178171	GRCh38
+short_large	reference_options	37	SRR30894055	Saccharomyces cerevisiae	Illumina	3.294206808321178	R64
+short_large	reference_options	38	SRR34546226	Homo sapiens	Ultima UG100	3.492271263152361	GRCh38
+short_large	reference_options	39	DRR1009870	Oryza sativa	Illumina	4.413150378502905	ASM1463603
+short_large	reference_options	52	ERR2189808	Cricetulus griseus	Illumina	18.505805568303913	PICRH
+long	no_external_reference	5	ERR12954382	Homo sapiens	ONT	38.07680943328887	
+long	no_external_reference	6	ONT_GIAB2025_HG002_PAW70337_SUP	Homo sapiens	ONT	102.12688693683594	
+long	no_external_reference	7	ERR14732808	Homo sapiens	PacBio	22.089163910597563	
+long	no_external_reference	20	SRR8801873	Homo sapiens	PacBio	32.27447919361293	
+long	no_external_reference	21	ERR13669551	Arabidopsis thaliana	ONT	9.238231668248773	
+long	no_external_reference	22	SRR14728885	Arabidopsis thaliana	PacBio	17.253869748674333	
+long	no_external_reference	28	SRR36288068	Homo sapiens	ONT	2.1491902861744165	
+long	no_external_reference	47	ERR3152366	metagenome	ONT	15.969879454933107	
+long	reference_options	5	ERR12954382	Homo sapiens	ONT	38.07680943328887	GRCh38
+long	reference_options	6	ONT_GIAB2025_HG002_PAW70337_SUP	Homo sapiens	ONT	102.12688693683594	GRCh38
+long	reference_options	20	SRR8801873	Homo sapiens	PacBio	32.27447919361293	GRCh38
+long	reference_options	21	ERR13669551	Arabidopsis thaliana	ONT	9.238231668248773	TAIR10
+long	reference_options	22	SRR14728885	Arabidopsis thaliana	PacBio	17.253869748674333	TAIR10
+long	reference_options	28	SRR36288068	Homo sapiens	ONT	2.1491902861744165	GRCh38

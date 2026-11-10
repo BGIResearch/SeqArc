@@ -1,0 +1,212 @@
+[
+  {
+    "example": "data45_noref",
+    "dataset": "45",
+    "input_file": "DRR171213_1.fastq.gz",
+    "archive_SHA256": "7d8a0037d48932c5cd305bc6c595f772eaec4eae7ce05012427a778bf7f4fc80",
+    "expected_FASTQ_bytes": "472299699",
+    "expected_FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+    "reference": "",
+    "restored_FASTQ_bytes": 472299699,
+    "restored_FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true
+  },
+  {
+    "example": "data45_noref",
+    "dataset": "45",
+    "input_file": "DRR171213_2.fastq.gz",
+    "archive_SHA256": "04eb1ecba923468b5ab038062d6a1cc5c5fbeccb90d2a45722898456d9064d8e",
+    "expected_FASTQ_bytes": "474584677",
+    "expected_FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+    "reference": "",
+    "restored_FASTQ_bytes": 474584677,
+    "restored_FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true
+  },
+  {
+    "example": "data45_ref",
+    "dataset": "45",
+    "input_file": "DRR171213_1.fastq.gz",
+    "archive_SHA256": "fa268709f0d57c473fcb906c81bde8abc032729c25b29ffe6001e69fedef517e",
+    "expected_FASTQ_bytes": "472299699",
+    "expected_FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+    "reference": "ecoli",
+    "restored_FASTQ_bytes": 472299699,
+    "restored_FASTQ_SHA256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true,
+    "public_reference_accession": "GCF_000005845.2",
+    "fresh_public_reference_index_decode_verified": true,
+    "public_reference_hashes": {
+      "reference": {
+        "bytes": 4699745,
+        "sha256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4"
+      },
+      "index": {
+        "bytes": 3772455,
+        "sha256": "db3f5b16d841afab989ca69a1d9394a1627e04c1517d5ce71c064aa8b91abbd5"
+      },
+      "archive": {
+        "bytes": 56736623,
+        "sha256": "fa268709f0d57c473fcb906c81bde8abc032729c25b29ffe6001e69fedef517e"
+      },
+      "restored": {
+        "bytes": 472299699,
+        "sha256": "bf7b717d9a03559c9fd95d5911c6454576ee7eff594f8e508b37474d618e0d24"
+      }
+    }
+  },
+  {
+    "example": "data45_ref",
+    "dataset": "45",
+    "input_file": "DRR171213_2.fastq.gz",
+    "archive_SHA256": "8f3332500e61523c721084dd953399ff33f3b1ac295e106ad10091df78cc282f",
+    "expected_FASTQ_bytes": "474584677",
+    "expected_FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+    "reference": "ecoli",
+    "restored_FASTQ_bytes": 474584677,
+    "restored_FASTQ_SHA256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true,
+    "public_reference_accession": "GCF_000005845.2",
+    "fresh_public_reference_index_decode_verified": true,
+    "public_reference_hashes": {
+      "reference": {
+        "bytes": 4699745,
+        "sha256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4"
+      },
+      "index": {
+        "bytes": 3772455,
+        "sha256": "db3f5b16d841afab989ca69a1d9394a1627e04c1517d5ce71c064aa8b91abbd5"
+      },
+      "archive": {
+        "bytes": 96694787,
+        "sha256": "8f3332500e61523c721084dd953399ff33f3b1ac295e106ad10091df78cc282f"
+      },
+      "restored": {
+        "bytes": 474584677,
+        "sha256": "f3aa453aaa8a91b6b3eabbc01b54b0c9c13c6eb57d7d97314d8cbcfe4347d58f"
+      }
+    }
+  },
+  {
+    "example": "data46_ref",
+    "dataset": "46",
+    "input_file": "SRR30502372_1.fastq.gz",
+    "archive_SHA256": "32cea024ec45299fce514da1603ab3e1a5cda170fc789ab6f76a68bb22923043",
+    "expected_FASTQ_bytes": "2592446262",
+    "expected_FASTQ_SHA256": "1464c4495eddb94b9c81f4a339e0df48ce5d3fceda3893acf7aaa08fed761a33",
+    "reference": "yeast",
+    "restored_FASTQ_bytes": 2592446262,
+    "restored_FASTQ_SHA256": "1464c4495eddb94b9c81f4a339e0df48ce5d3fceda3893acf7aaa08fed761a33",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true,
+    "public_reference_accession": "GCF_000146045.2",
+    "fresh_public_reference_index_decode_verified": true,
+    "public_reference_hashes": {
+      "reference": {
+        "bytes": 12310392,
+        "sha256": "fe42735d3e6242f8c40b457a232940e34ef15eb4502717e54a34ed118face4c1"
+      },
+      "index": {
+        "bytes": 10541408,
+        "sha256": "f48eeace10ef145eb1c81fbab659a355a6484fc44d13a703135972f05e1849f1"
+      },
+      "archive": {
+        "bytes": 92842553,
+        "sha256": "32cea024ec45299fce514da1603ab3e1a5cda170fc789ab6f76a68bb22923043"
+      },
+      "restored": {
+        "bytes": 2592446262,
+        "sha256": "1464c4495eddb94b9c81f4a339e0df48ce5d3fceda3893acf7aaa08fed761a33"
+      }
+    }
+  },
+  {
+    "example": "data46_ref",
+    "dataset": "46",
+    "input_file": "SRR30502372_2.fastq.gz",
+    "archive_SHA256": "d52965fb9735912b371d2134f8b3ef14bcc9e3ee204ba0e05a2078421ab94abf",
+    "expected_FASTQ_bytes": "2592446262",
+    "expected_FASTQ_SHA256": "63909255c9077493bc1aac3ca517f1793aa1390505077b21ea8bfb29ec8dd1d1",
+    "reference": "yeast",
+    "restored_FASTQ_bytes": 2592446262,
+    "restored_FASTQ_SHA256": "63909255c9077493bc1aac3ca517f1793aa1390505077b21ea8bfb29ec8dd1d1",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true,
+    "public_reference_accession": "GCF_000146045.2",
+    "fresh_public_reference_index_decode_verified": true,
+    "public_reference_hashes": {
+      "reference": {
+        "bytes": 12310392,
+        "sha256": "fe42735d3e6242f8c40b457a232940e34ef15eb4502717e54a34ed118face4c1"
+      },
+      "index": {
+        "bytes": 10541408,
+        "sha256": "f48eeace10ef145eb1c81fbab659a355a6484fc44d13a703135972f05e1849f1"
+      },
+      "archive": {
+        "bytes": 106300107,
+        "sha256": "d52965fb9735912b371d2134f8b3ef14bcc9e3ee204ba0e05a2078421ab94abf"
+      },
+      "restored": {
+        "bytes": 2592446262,
+        "sha256": "63909255c9077493bc1aac3ca517f1793aa1390505077b21ea8bfb29ec8dd1d1"
+      }
+    }
+  },
+  {
+    "example": "data25_noref",
+    "dataset": "25",
+    "input_file": "DRR1089360.fastq.gz",
+    "archive_SHA256": "aa29e18ad2167b68a86d67d760673d3f8b3a016ad336b607e7c1cac0a56450ae",
+    "expected_FASTQ_bytes": "1265401963",
+    "expected_FASTQ_SHA256": "2d6a6077c07c1d968428ed0b5d384980ecf27b78cb86325afa33f2c2c691ec90",
+    "reference": "",
+    "restored_FASTQ_bytes": 1265401963,
+    "restored_FASTQ_SHA256": "2d6a6077c07c1d968428ed0b5d384980ecf27b78cb86325afa33f2c2c691ec90",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true
+  },
+  {
+    "example": "data40_noref",
+    "dataset": "40",
+    "input_file": "SRR30515680_1.fastq.gz",
+    "archive_SHA256": "ae029d53cabae5683f9ffdeef37699bb2e75e8ab5facc66aeb94aa838ef6524d",
+    "expected_FASTQ_bytes": "47979921",
+    "expected_FASTQ_SHA256": "a2bccc7b88e2bd017118472cbfb7a0387f61b4991ad63a5ec38a0c24891905ec",
+    "reference": "",
+    "restored_FASTQ_bytes": 47979921,
+    "restored_FASTQ_SHA256": "a2bccc7b88e2bd017118472cbfb7a0387f61b4991ad63a5ec38a0c24891905ec",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true
+  },
+  {
+    "example": "data40_noref",
+    "dataset": "40",
+    "input_file": "SRR30515680_2.fastq.gz",
+    "archive_SHA256": "fe66d4ace747e7c18c9262eb10aaa7612261a6d00afab863a06e750ab7a468ab",
+    "expected_FASTQ_bytes": "47979921",
+    "expected_FASTQ_SHA256": "07195ed4134814a7c932d381773815966fda815fcaa837d12c2e18fa2f32de56",
+    "reference": "",
+    "restored_FASTQ_bytes": 47979921,
+    "restored_FASTQ_SHA256": "07195ed4134814a7c932d381773815966fda815fcaa837d12c2e18fa2f32de56",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": true
+  },
+  {
+    "example": "data28_noref",
+    "dataset": "28",
+    "input_file": "SRR36288068_1.fastq.gz",
+    "archive_SHA256": "728dd693555d420f32bf3606a28f313031bf943753b7e1414f98950d3ba8c7a8",
+    "expected_FASTQ_bytes": "5214064962",
+    "expected_FASTQ_SHA256": "c4aec456af5d29ed805c77807c52c60c87d767713c210b9ed1147a7db616b70f",
+    "reference": "",
+    "restored_FASTQ_bytes": 5214064962,
+    "restored_FASTQ_SHA256": "c4aec456af5d29ed805c77807c52c60c87d767713c210b9ed1147a7db616b70f",
+    "original_gzip_contents_match": true,
+    "historical_XXH3_match": null
+  }
+]

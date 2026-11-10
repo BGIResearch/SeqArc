@@ -1,0 +1,24 @@
+{
+  "compress": [
+    "genozip",
+    "--reference",
+    "SOURCE_ROOT/index/TAIR10.ref.genozip",
+    "-@",
+    "16",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_24/SRR14627767_2.fastq.gz",
+    "-o",
+    "benchmark/logs/Data_24/SRR14627767_2.fastq.gz/Genozip_ref/repeat_01/reads.genozip"
+  ],
+  "decompress": [
+    "genounzip",
+    "--reference",
+    "SOURCE_ROOT/index/TAIR10.ref.genozip",
+    "-@",
+    "16",
+    "benchmark/logs/Data_24/SRR14627767_2.fastq.gz/Genozip_ref/repeat_01/reads.genozip",
+    "-o",
+    "benchmark/logs/Data_24/SRR14627767_2.fastq.gz/Genozip_ref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_24/SRR14627767_2.fastq.gz",
+  "reference_accession": "GCF_000001735.4"
+}

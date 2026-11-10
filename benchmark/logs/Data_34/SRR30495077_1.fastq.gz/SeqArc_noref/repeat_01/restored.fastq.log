@@ -1,0 +1,15 @@
+[2026-10-31 08:21:26] [info] [SeqArc] decompress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+DecodeTime                                  0.20
+NameTime                                    0.00
+QualTime                                    0.00
+ReadTime                                    0.37
+SeqLenTime                                  0.20
+SeqTime                                     0.00
+WriteTime                                  17.75
+RecoverTime                               273.00
+WaitBufTime                                 0.00
+******************************************************************************************
+[2026-10-31 08:21:26] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc decompress --type 1 -t 16 -i benchmark/logs/Data_34/SRR30495077_1.fastq.gz/SeqArc_noref/repeat_01/reads.fastq.arc -o benchmark/logs/Data_34/SRR30495077_1.fastq.gz/SeqArc_noref/repeat_01/restored.fastq 

@@ -1,0 +1,56 @@
+[2026-10-30 11:29:46] [info] [SeqArc] qual hist unique:1
+[2026-10-30 11:29:46] [info] [SeqArc] qual method selected: BSC(16,8,A) (sample 21313800 -> 122, scale 497.6, est total 60707)
+[2026-10-30 11:29:46] [info] [SeqArc] PerfectMini index SOURCE_ROOT/index/Sscrofa11.fa.pmini_os_17_12_2 found, skip building.
+[2026-10-30 11:29:48] [info] [SeqArc] PerfectMini index loaded
+[2026-10-30 11:29:48] [info] [SeqArc] thread split: total=16 gz=2 workers=14 (expand to 16 after read)
+[2026-10-30 11:30:42] [info] [SeqArc] SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_14/SRR24804436_2.fastq.gz is end
+[2026-10-30 11:30:42] [info] [SeqArc] ReadFastq done
+[2026-10-30 11:30:42] [info] [SeqArc] read done: expanded encode workers 14 -> 16
+[2026-10-30 11:30:45] [info] [SeqArc] filesz:5009001709, comsz:922364572, ratio:    5.43
+[2026-10-30 11:30:45] [info] [SeqArc] compress stat
+******************************************************************************************
+compress profile list:
+name                 originSize                 compress                   ratio
+------------------------------------------------------------------------------------------
+Total                31331977002                922364572                  33.97   
+name                 4642064442                 212195804                  21.88   
+seq                  13257160515                710012048                  18.67   
+qual                 13257160515                83850                      158105.67
+seqlen               351183060                  19135                      18352.92
+******************************************************************************************
+[2026-10-30 11:30:45] [info] [SeqArc] compress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+ReadTime                                   54.20
+ParseTime                                  10.56
+NameTime                                   27.77
+SeqTime                                    68.06
+AlignTime                                 660.95
+QualTime                                    7.32
+SeqLenTime                                  0.41
+BlockHashTime                               4.06
+TotalCompressTime                           4.43
+WriteTime                                   0.55
+******************************************************************************************
+[2026-10-30 11:30:45] [info] [SeqArc] align stat
+******************************************************************************************
+mapcount            unmapcount          forward             reverse             
+82863421            4932344             41425127            41438294            
+Total Block Count   Align Block Count   Fqz Block Count                    Ratio
+598                 598                 0                                   1.00
+TotalBase:13169364750 AlignBase:12429513150 DegeBase:228 
+TotalAnchor:0 ShortReads:0 lesshit1:0 lesshit2:0
+******************************************************************************************
+[2026-10-30 11:30:45] [info] [SeqArc] read stat
+******************************************************************************************
+fastq Statistics:
+------------------------------------------------------------------------------------------
+Reads_Num: 87795765
+Reads_Base: 13169364750
+Shortest,Longest: 150,150
+Mean_len:  150.00
+GC_Ratio:   43.36
+******************************************************************************************
+[2026-10-30 11:30:45] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc compress -r SOURCE_ROOT/index/Sscrofa11.fa -t 16 -i SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_14/SRR24804436_2.fastq.gz -o benchmark/logs/Data_14/SRR24804436_2.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc 
+[2026-10-30 11:30:45] [info] [SeqArc] [PerfectMiniRef] Align stats: total=87795765 L1_hit=65757068(74.90%) L2_hit=17106353(19.48%) miss=4932344(5.62%) indel_hit=6502110(7.85% of 82863421 hits)

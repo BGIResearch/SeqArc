@@ -1,0 +1,26 @@
+{
+  "compress": [
+    "colord",
+    "compress-pbhifi",
+    "-q",
+    "org",
+    "-i",
+    "org",
+    "-G",
+    "SOURCE_ROOT/index/GRCh38.fa",
+    "-t",
+    "16",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_7/ERR14732808.fastq.gz",
+    "benchmark/logs/Data_7/ERR14732808.fastq.gz/CoLoRd_ref/repeat_01/reads.colord"
+  ],
+  "decompress": [
+    "colord",
+    "decompress",
+    "-G",
+    "SOURCE_ROOT/index/GRCh38.fa",
+    "benchmark/logs/Data_7/ERR14732808.fastq.gz/CoLoRd_ref/repeat_01/reads.colord",
+    "benchmark/logs/Data_7/ERR14732808.fastq.gz/CoLoRd_ref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_7/ERR14732808.fastq.gz",
+  "reference_accession": "GCF_000001405.39"
+}

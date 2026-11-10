@@ -1,0 +1,1417 @@
+{
+  "calculated_date": "2026-11-05",
+  "source_metadata_retrieved_UTC": "2026-10-09T08:17:58.190639+00:00",
+  "dataset_version": "1.2.0",
+  "stock_window": "First public before 2026-10-01",
+  "annual_window": "First public from 2025-10-01 through 2026-09-30",
+  "stock_reported_bases_denominator": 102706156796947692,
+  "annual_reported_bases_denominator": 23531275808337950,
+  "source_manifest_sha256": "5d1320703e1d6b7a3a33ecacce378115f83655879da3e3aa33a55374ad4ee6d9",
+  "units": "Percentage points: share_pct = 100 * matching reported bases / reported bases in the whole window. Null means not measurable, not zero.",
+  "sort_order": [
+    "workload_stock_bases descending",
+    "model_stock_bases descending within tied workloads; null last",
+    "data_id ascending for remaining exact ties"
+  ],
+  "scope": "ENA-indexed public INSDC metadata. Reported bases, not stored FASTQ bytes or market production. Class shares overlap and must not be added. Unknown organism labels remain in denominators. Genomic species pools include exact species plus space-separated suffixes; shrimp also pools the named Litopenaeus synonym; the broader M. tuberculosis complex label is excluded. Community material pools use exact recorded labels. No read-length, quality, target, cell or spatial protocol share is inferred.",
+  "datasets": [
+    {
+      "data_id": 1,
+      "identity": "ERR17003126",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-G400"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 48837370714773,
+      "model_annual_bases": 24309073410964,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-G400. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-G400 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.047550577529",
+      "model_annual_share_pct": "0.103305377953"
+    },
+    {
+      "data_id": 2,
+      "identity": "ERR16794642",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-T7"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 39173882711915,
+      "model_annual_bases": 4884722774251,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-T7. Quality concentration is not recorded in the survey; this is the human-WGS/model category.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-T7 的部分。档案字段没有质量值集中程度，不能计算该质量特征本身的占比。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.038141708281",
+      "model_annual_share_pct": "0.020758427269"
+    },
+    {
+      "data_id": 3,
+      "identity": "SRR33329596",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-T7"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 39173882711915,
+      "model_annual_bases": 4884722774251,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-T7. The number of quality symbols is not recorded. Data 2 and 3 have the same archive category.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-T7 的部分。档案字段没有质量字符种类数。数据 2 和 3 使用相同的归档类别。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.038141708281",
+      "model_annual_share_pct": "0.020758427269"
+    },
+    {
+      "data_id": 4,
+      "identity": "ERR15383198",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq X Plus"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 43774732160178,
+      "model_annual_bases": 26264251465613,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq X Plus. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq X Plus 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.042621332085",
+      "model_annual_share_pct": "0.111614226443"
+    },
+    {
+      "data_id": 5,
+      "identity": "ERR12954382",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "OXFORD_NANOPORE",
+        "model": "PromethION"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 312946367357076,
+      "model_annual_bases": 81035061037140,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform OXFORD_NANOPORE, model PromethION. Ultra-long read length is not recorded; this is the human-WGS/PromethION category.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 OXFORD_NANOPORE，型号为 PromethION 的部分。档案字段没有读长，不能单独计算超长读段的占比。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.304700688953",
+      "model_annual_share_pct": "0.344371727641"
+    },
+    {
+      "data_id": 6,
+      "identity": "ONT_GIAB2025_HG002_PAW70337_SUP",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "OXFORD_NANOPORE",
+        "model": "PromethION"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 312946367357076,
+      "model_annual_bases": 81035061037140,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform OXFORD_NANOPORE, model PromethION. The selected vendor file is outside the ENA survey; its human WGS and ONT/PromethION workload can still be counted. The survey cannot identify individual flow cells.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 OXFORD_NANOPORE，型号为 PromethION 的部分。所选厂商文件不在 ENA 统计范围内；仍可计算相应的人类全基因组和 ONT/PromethION 类别。档案字段不能识别单张芯片。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.304700688953",
+      "model_annual_share_pct": "0.344371727641"
+    },
+    {
+      "data_id": 7,
+      "identity": "ERR14732808",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "PACBIO_SMRT",
+        "model": "Revio"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 53015482919952,
+      "model_annual_bases": 9148488838763,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform PACBIO_SMRT, model Revio. The archive fields do not distinguish HiFi from other read processing; Revio is a model-level proxy.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 PACBIO_SMRT，型号为 Revio 的部分。档案字段不能区分 HiFi 等读段处理方式；具体组合只按 Revio 型号统计。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.051618602597",
+      "model_annual_share_pct": "0.038877997578"
+    },
+    {
+      "data_id": 8,
+      "identity": "CNR1409093",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": null,
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": null,
+      "model_annual_bases": null,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: The CycloneSEQ-specific combination is not measurable in this survey. The selected CNGB file is outside the ENA survey. No dedicated CycloneSEQ platform category exists in this frozen projection; its technology-specific share is not measurable here.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：这份快照无法识别 CycloneSEQ 的具体组合。所选 CNGB 文件不在 ENA 统计范围内。这份固定快照没有可识别 CycloneSEQ 的独立平台或型号标签，无法计算该技术的具体占比。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": null,
+      "model_annual_share_pct": null
+    },
+    {
+      "data_id": 9,
+      "identity": "ERR12411150",
+      "workload": "Human exome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WXS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WXS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 1070696673537855,
+      "workload_annual_bases": 91439601969826,
+      "model_stock_bases": 374589399941579,
+      "model_annual_bases": 60968082968385,
+      "coverage": "Workload: Human exome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类外显子组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "1.042485384449",
+      "workload_annual_share_pct": "0.388587523748",
+      "model_stock_share_pct": "0.364719517918",
+      "model_annual_share_pct": "0.259093826722"
+    },
+    {
+      "data_id": 10,
+      "identity": "SRR8906645",
+      "workload": "Maize whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Zea mays",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Zea mays",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 318847258466926,
+      "workload_annual_bases": 24056932433234,
+      "model_stock_bases": 106158908808523,
+      "model_annual_bases": 10077417687387,
+      "coverage": "Workload: Maize whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：玉米全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.310446100225",
+      "workload_annual_share_pct": "0.102233863685",
+      "model_stock_share_pct": "0.103361777053",
+      "model_annual_share_pct": "0.042825632445"
+    },
+    {
+      "data_id": 11,
+      "identity": "DRR341924",
+      "workload": "Human genomic amplicon sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "AMPLICON"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "AMPLICON",
+        "platform": "ION_TORRENT",
+        "model": "Ion Torrent S5 XL"
+      },
+      "workload_stock_bases": 244380979967453,
+      "workload_annual_bases": 30220394672144,
+      "model_stock_bases": 1251522748563,
+      "model_annual_bases": 275961813217,
+      "coverage": "Workload: Human genomic amplicon sequencing. Model combination: Same workload, submitted source GENOMIC, platform ION_TORRENT, model Ion Torrent S5 XL. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类基因组扩增子测序。具体组合：上述类别中，提交的来源为基因组，平台为 ION_TORRENT，型号为 Ion Torrent S5 XL 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.237941899092",
+      "workload_annual_share_pct": "0.128426503171",
+      "model_stock_share_pct": "0.001218546957",
+      "model_annual_share_pct": "0.001172744799"
+    },
+    {
+      "data_id": 12,
+      "identity": "SRR19440963",
+      "workload": "Norway spruce target capture",
+      "workload_filter": {
+        "organism_group": "Picea abies",
+        "source": "GENOMIC",
+        "strategy": "Targeted-Capture"
+      },
+      "model_filter": {
+        "organism_group": "Picea abies",
+        "source": "GENOMIC",
+        "strategy": "Targeted-Capture",
+        "platform": "ILLUMINA",
+        "model": "Illumina HiSeq 2000"
+      },
+      "workload_stock_bases": 6814271954149,
+      "workload_annual_bases": 0,
+      "model_stock_bases": 5943501503411,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Norway spruce target capture. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina HiSeq 2000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：挪威云杉靶向捕获测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina HiSeq 2000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.006634725869",
+      "workload_annual_share_pct": "0.000000000000",
+      "model_stock_share_pct": "0.005786898944",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 13,
+      "identity": "DRR095727",
+      "workload": "Quinoa RAD sequencing",
+      "workload_filter": {
+        "organism_group": "Chenopodium quinoa",
+        "source": "GENOMIC",
+        "strategy": "RAD-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Chenopodium quinoa",
+        "source": "GENOMIC",
+        "strategy": "RAD-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina HiSeq 2500"
+      },
+      "workload_stock_bases": 130803073738,
+      "workload_annual_bases": 10877379224,
+      "model_stock_bases": 130803073738,
+      "model_annual_bases": 10877379224,
+      "coverage": "Workload: Quinoa RAD sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina HiSeq 2500. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：藜麦 RAD 测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina HiSeq 2500 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.000127356604",
+      "workload_annual_share_pct": "0.000046225200",
+      "model_stock_share_pct": "0.000127356604",
+      "model_annual_share_pct": "0.000046225200"
+    },
+    {
+      "data_id": 14,
+      "identity": "SRR24804436",
+      "workload": "Pig whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Sus scrofa",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Sus scrofa",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-G400"
+      },
+      "workload_stock_bases": 344305759268107,
+      "workload_annual_bases": 89281028958861,
+      "model_stock_bases": 12847748569500,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Pig whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-G400. Constant qualities are not recorded in the survey.",
+      "coverage_zh": "总体类别：猪全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-G400 的部分。档案字段没有记录质量值是否恒定。",
+      "workload_stock_share_pct": "0.335233806819",
+      "workload_annual_share_pct": "0.379414315170",
+      "model_stock_share_pct": "0.012509229213",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 15,
+      "identity": "ERR14032264",
+      "workload": "Mouse whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Mus musculus",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Mus musculus",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 1310811277529816,
+      "workload_annual_bases": 247796415458839,
+      "model_stock_bases": 549473740375088,
+      "model_annual_bases": 126520487447915,
+      "coverage": "Workload: Mouse whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：小鼠全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "1.276273320324",
+      "workload_annual_share_pct": "1.053051341020",
+      "model_stock_share_pct": "0.534995912135",
+      "model_annual_share_pct": "0.537669476481"
+    },
+    {
+      "data_id": 16,
+      "identity": "ERR9904291",
+      "workload": "Wheat whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Triticum aestivum",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Triticum aestivum",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 335484731752927,
+      "workload_annual_bases": 39927495898949,
+      "model_stock_bases": 163123348536143,
+      "model_annual_bases": 16493030395052,
+      "coverage": "Workload: Wheat whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：小麦全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.326645200459",
+      "workload_annual_share_pct": "0.169678415332",
+      "model_stock_share_pct": "0.158825287230",
+      "model_annual_share_pct": "0.070089826533"
+    },
+    {
+      "data_id": 17,
+      "identity": "SRR14993639",
+      "workload": "Potato whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Solanum tuberosum",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Solanum tuberosum",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina HiSeq 2500"
+      },
+      "workload_stock_bases": 76030587709544,
+      "workload_annual_bases": 19556811562663,
+      "model_stock_bases": 23137451481067,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Potato whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina HiSeq 2500. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：马铃薯全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina HiSeq 2500 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.074027293086",
+      "workload_annual_share_pct": "0.083109865024",
+      "model_stock_share_pct": "0.022527813524",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 18,
+      "identity": "DRR1000971",
+      "workload": "Whiteleg shrimp whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Penaeus vannamei",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Penaeus vannamei",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-T7"
+      },
+      "workload_stock_bases": 7746176806822,
+      "workload_annual_bases": 6215447493148,
+      "model_stock_bases": 1252275263971,
+      "model_annual_bases": 1252275263971,
+      "coverage": "Workload: Whiteleg shrimp whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-T7. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：南美白对虾全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-T7 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.007542076394",
+      "workload_annual_share_pct": "0.026413559315",
+      "model_stock_share_pct": "0.001219279645",
+      "model_annual_share_pct": "0.005321748273"
+    },
+    {
+      "data_id": 19,
+      "identity": "ERR13943038",
+      "workload": "Chicken whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Gallus gallus",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Gallus gallus",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-T7"
+      },
+      "workload_stock_bases": 276559419546969,
+      "workload_annual_bases": 72358100419567,
+      "model_stock_bases": 65986719461590,
+      "model_annual_bases": 15916149948792,
+      "coverage": "Workload: Chicken whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform DNBSEQ, model DNBSEQ-T7. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：鸡全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 DNBSEQ，型号为 DNBSEQ-T7 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.269272483921",
+      "workload_annual_share_pct": "0.307497566256",
+      "model_stock_share_pct": "0.064248066055",
+      "model_annual_share_pct": "0.067638278852"
+    },
+    {
+      "data_id": 20,
+      "identity": "SRR8801873",
+      "workload": "Human whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "PACBIO_SMRT",
+        "model": "Sequel"
+      },
+      "workload_stock_bases": 4845538557753555,
+      "workload_annual_bases": 651123460351546,
+      "model_stock_bases": 17717427113584,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Human whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform PACBIO_SMRT, model Sequel. CLR processing is not recorded; Sequel is a model-level proxy and can include other processing.",
+      "coverage_zh": "总体类别：人类全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 PACBIO_SMRT，型号为 Sequel 的部分。档案字段没有记录 CLR 处理方式；Sequel 型号类别可以包含其他处理方式。",
+      "workload_stock_share_pct": "4.717865714062",
+      "workload_annual_share_pct": "2.767055495227",
+      "model_stock_share_pct": "0.017250598860",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 21,
+      "identity": "ERR13669551",
+      "workload": "Arabidopsis whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "OXFORD_NANOPORE",
+        "model": "GridION"
+      },
+      "workload_stock_bases": 91114737355488,
+      "workload_annual_bases": 17759528372386,
+      "model_stock_bases": 225643277342,
+      "model_annual_bases": 20846895449,
+      "coverage": "Workload: Arabidopsis whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform OXFORD_NANOPORE, model GridION. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：拟南芥全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 OXFORD_NANOPORE，型号为 GridION 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.088713997483",
+      "workload_annual_share_pct": "0.075472016550",
+      "model_stock_share_pct": "0.000219697907",
+      "model_annual_share_pct": "0.000088592287"
+    },
+    {
+      "data_id": 22,
+      "identity": "SRR14728885",
+      "workload": "Arabidopsis whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "PACBIO_SMRT",
+        "model": "Sequel II"
+      },
+      "workload_stock_bases": 91114737355488,
+      "workload_annual_bases": 17759528372386,
+      "model_stock_bases": 2177872133975,
+      "model_annual_bases": 257664724798,
+      "coverage": "Workload: Arabidopsis whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform PACBIO_SMRT, model Sequel II. HiFi processing is not recorded; Sequel II is a model-level proxy.",
+      "coverage_zh": "总体类别：拟南芥全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 PACBIO_SMRT，型号为 Sequel II 的部分。档案字段没有记录 HiFi 处理方式；具体组合只按 Sequel II 型号统计。",
+      "workload_stock_share_pct": "0.088713997483",
+      "workload_annual_share_pct": "0.075472016550",
+      "model_stock_share_pct": "0.002120488393",
+      "model_annual_share_pct": "0.001094988333"
+    },
+    {
+      "data_id": 23,
+      "identity": "ERR10030615",
+      "workload": "Human RNA sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-G400"
+      },
+      "workload_stock_bases": 11872916063826697,
+      "workload_annual_bases": 2158595076442960,
+      "model_stock_bases": 85853612479820,
+      "model_annual_bases": 19324582155811,
+      "coverage": "Workload: Human RNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform DNBSEQ, model DNBSEQ-G400. The RNA-Seq category includes bulk and single-cell libraries; these fields do not distinguish them.",
+      "coverage_zh": "总体类别：人类 RNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 DNBSEQ，型号为 DNBSEQ-G400 的部分。RNA-Seq 类别包含整体和单细胞文库，现有字段不能区分。",
+      "workload_stock_share_pct": "11.560082115914",
+      "workload_annual_share_pct": "9.173302348860",
+      "model_stock_share_pct": "0.083591495542",
+      "model_annual_share_pct": "0.082122968228"
+    },
+    {
+      "data_id": 24,
+      "identity": "SRR14627767",
+      "workload": "Arabidopsis RNA sequencing",
+      "workload_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Arabidopsis thaliana",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 470106771675432,
+      "workload_annual_bases": 87117538660846,
+      "model_stock_bases": 158594129057578,
+      "model_annual_bases": 32526802010659,
+      "coverage": "Workload: Arabidopsis RNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. The RNA-Seq category includes bulk and single-cell libraries.",
+      "coverage_zh": "总体类别：拟南芥 RNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。RNA-Seq 类别包含整体和单细胞文库。",
+      "workload_stock_share_pct": "0.457720146811",
+      "workload_annual_share_pct": "0.370220209777",
+      "model_stock_share_pct": "0.154415406051",
+      "model_annual_share_pct": "0.138227957870"
+    },
+    {
+      "data_id": 25,
+      "identity": "DRR1089360",
+      "workload": "Human miRNA sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "miRNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "miRNA-Seq",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-G400"
+      },
+      "workload_stock_bases": 76256319089547,
+      "workload_annual_bases": 13697955172704,
+      "model_stock_bases": 440012706884,
+      "model_annual_bases": 232236688500,
+      "coverage": "Workload: Human miRNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform DNBSEQ, model DNBSEQ-G400. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类 miRNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 DNBSEQ，型号为 DNBSEQ-G400 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.074247076775",
+      "workload_annual_share_pct": "0.058211697845",
+      "model_stock_share_pct": "0.000428419017",
+      "model_annual_share_pct": "0.000986927740"
+    },
+    {
+      "data_id": 26,
+      "identity": "DRR1069746",
+      "workload": "Human RNA sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 11872916063826697,
+      "workload_annual_bases": 2158595076442960,
+      "model_stock_bases": 3980957906891564,
+      "model_annual_bases": 725538459577279,
+      "coverage": "Workload: Human RNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. The RNA-Seq category includes bulk and single-cell libraries.",
+      "coverage_zh": "总体类别：人类 RNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。RNA-Seq 类别包含整体和单细胞文库。",
+      "workload_stock_share_pct": "11.560082115914",
+      "workload_annual_share_pct": "9.173302348860",
+      "model_stock_share_pct": "3.876065496991",
+      "model_annual_share_pct": "3.083294188920"
+    },
+    {
+      "data_id": 27,
+      "identity": "SRR30608496",
+      "workload": "Human RNA sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "ELEMENT",
+        "model": "Element AVITI"
+      },
+      "workload_stock_bases": 11872916063826697,
+      "workload_annual_bases": 2158595076442960,
+      "model_stock_bases": 7629690305254,
+      "model_annual_bases": 4693053505362,
+      "coverage": "Workload: Human RNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform ELEMENT, model Element AVITI. The RNA-Seq category includes bulk and single-cell libraries; layout is not a filter here.",
+      "coverage_zh": "总体类别：人类 RNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 ELEMENT，型号为 Element AVITI 的部分。RNA-Seq 类别包含整体和单细胞文库；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "11.560082115914",
+      "workload_annual_share_pct": "9.173302348860",
+      "model_stock_share_pct": "0.007428659141",
+      "model_annual_share_pct": "0.019943897405"
+    },
+    {
+      "data_id": 28,
+      "identity": "SRR36288068",
+      "workload": "Human full-length cDNA sequencing",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "FL-cDNA"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "FL-cDNA",
+        "platform": "OXFORD_NANOPORE",
+        "model": "PromethION"
+      },
+      "workload_stock_bases": 5498612225055,
+      "workload_annual_bases": 920532792905,
+      "model_stock_bases": 464513700691,
+      "model_annual_bases": 171677331826,
+      "coverage": "Workload: Human full-length cDNA sequencing. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform OXFORD_NANOPORE, model PromethION. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：人类全长 cDNA 测序。具体组合：上述类别中，提交的来源为转录组，平台为 OXFORD_NANOPORE，型号为 PromethION 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.005353731847",
+      "workload_annual_share_pct": "0.003911954458",
+      "model_stock_share_pct": "0.000452274445",
+      "model_annual_share_pct": "0.000729570862"
+    },
+    {
+      "data_id": 29,
+      "identity": "SRR6520293",
+      "workload": "Mouse RNA sequencing (includes bulk and single-cell)",
+      "workload_filter": {
+        "organism_group": "Mus musculus",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Mus musculus",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 9136936754617326,
+      "workload_annual_bases": 1920512994231240,
+      "model_stock_bases": 2784151075001522,
+      "model_annual_bases": 532514471684880,
+      "coverage": "Workload: Mouse RNA sequencing (includes bulk and single-cell). Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Smart-seq2 and individual cells are not identifiable in the saved fields; mouse RNA-Seq is a broader category.",
+      "coverage_zh": "总体类别：小鼠 RNA 测序，包含整体和单细胞文库。具体组合：上述类别中，提交的来源为转录组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能识别 Smart-seq2 和单个细胞；这里使用较宽的小鼠 RNA-Seq 类别。",
+      "workload_stock_share_pct": "8.896191854088",
+      "workload_annual_share_pct": "8.161533653652",
+      "model_stock_share_pct": "2.710792772147",
+      "model_annual_share_pct": "2.263007225032"
+    },
+    {
+      "data_id": 30,
+      "identity": "SRR19066659",
+      "workload": "Human libraries with both type fields unspecified",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "OTHER",
+        "strategy": "OTHER"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "OTHER",
+        "strategy": "OTHER",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 289595325194145,
+      "workload_annual_bases": 165141343873552,
+      "model_stock_bases": 216617269631991,
+      "model_annual_bases": 132392020373713,
+      "coverage": "Workload: Human libraries with both type fields unspecified. Model combination: Same workload, submitted source OTHER, platform ILLUMINA, model Illumina NovaSeq 6000. CITE antibody tags are not identifiable. The reported category is all human libraries labelled source OTHER and strategy OTHER; it is not a CITE share.",
+      "coverage_zh": "总体类别：人类文库，档案中的两项文库类型均未具体注明。具体组合：上述类别中，提交的来源为OTHER（未具体注明），平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能识别 CITE 抗体标签。这里统计来源和策略均标为 OTHER 的所有人类文库，不能将其理解为 CITE 占比。",
+      "workload_stock_share_pct": "0.281964912548",
+      "workload_annual_share_pct": "0.701795113952",
+      "model_stock_share_pct": "0.210909721858",
+      "model_annual_share_pct": "0.562621514669"
+    },
+    {
+      "data_id": 31,
+      "identity": "SRR19066665",
+      "workload": "Human transcriptomic libraries with strategy unspecified",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "OTHER"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "TRANSCRIPTOMIC",
+        "strategy": "OTHER",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 669299700273559,
+      "workload_annual_bases": 162306421271026,
+      "model_stock_bases": 391318884889904,
+      "model_annual_bases": 75539575583320,
+      "coverage": "Workload: Human transcriptomic libraries with strategy unspecified. Model combination: Same workload, submitted source TRANSCRIPTOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. CITE mRNA is not identifiable. The reported category is human transcriptomic libraries labelled strategy OTHER; it is not a CITE share.",
+      "coverage_zh": "总体类别：人类转录组文库，档案中的测序策略未具体注明。具体组合：上述类别中，提交的来源为转录组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能识别 CITE mRNA。这里统计策略标为 OTHER 的人类转录组文库，不能将其理解为 CITE 占比。",
+      "workload_stock_share_pct": "0.651664633501",
+      "workload_annual_share_pct": "0.689747647314",
+      "model_stock_share_pct": "0.381008205441",
+      "model_annual_share_pct": "0.321017764607"
+    },
+    {
+      "data_id": 32,
+      "identity": "SRR19066668",
+      "workload": "Human libraries with both type fields unspecified",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "OTHER",
+        "strategy": "OTHER"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "OTHER",
+        "strategy": "OTHER",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 289595325194145,
+      "workload_annual_bases": 165141343873552,
+      "model_stock_bases": 216617269631991,
+      "model_annual_bases": 132392020373713,
+      "coverage": "Workload: Human libraries with both type fields unspecified. Model combination: Same workload, submitted source OTHER, platform ILLUMINA, model Illumina NovaSeq 6000. CITE sample tags are not identifiable. The category is the same broad OTHER/OTHER pool as Data 30; it is not a sample-tag share.",
+      "coverage_zh": "总体类别：人类文库，档案中的两项文库类型均未具体注明。具体组合：上述类别中，提交的来源为OTHER（未具体注明），平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能识别 CITE 样本标签。这里与数据 30 使用相同的 OTHER/OTHER 类别，不能将其理解为样本标签占比。",
+      "workload_stock_share_pct": "0.281964912548",
+      "workload_annual_share_pct": "0.701795113952",
+      "model_stock_share_pct": "0.210909721858",
+      "model_annual_share_pct": "0.562621514669"
+    },
+    {
+      "data_id": 33,
+      "identity": "SRR29351083",
+      "workload": "Human RNA sequencing (includes spatial and other libraries)",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": null,
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC SINGLE CELL",
+        "strategy": "RNA-Seq",
+        "platform": "DNBSEQ",
+        "model": "DNBSEQ-T7"
+      },
+      "workload_stock_bases": 11872916063826697,
+      "workload_annual_bases": 2158595076442960,
+      "model_stock_bases": 1036514478278,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Human RNA sequencing (includes spatial and other libraries). Model combination: Same workload, submitted source GENOMIC SINGLE CELL, platform DNBSEQ, model DNBSEQ-T7. Spatial libraries are not identifiable from these fields. The workload column covers human RNA-Seq; the model column also fixes the submitted source GENOMIC SINGLE CELL, but this is not a Stereo-seq share.",
+      "coverage_zh": "总体类别：人类 RNA 测序，包含空间文库和其他文库。具体组合：上述类别中，提交的来源为GENOMIC SINGLE CELL（提交标签），平台为 DNBSEQ，型号为 DNBSEQ-T7 的部分。现有字段不能识别空间文库。总体类别为人类 RNA-Seq；具体组合另按提交的 GENOMIC SINGLE CELL 来源标签筛选，不能将其理解为 Stereo-seq 占比。",
+      "workload_stock_share_pct": "11.560082115914",
+      "workload_annual_share_pct": "9.173302348860",
+      "model_stock_share_pct": "0.001009203840",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 34,
+      "identity": "SRR30495077",
+      "workload": "Human ATAC sequencing (bulk and single-cell)",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "ATAC-seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "ATAC-seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 461377874706272,
+      "workload_annual_bases": 80564631398962,
+      "model_stock_bases": 232221941593301,
+      "model_annual_bases": 44064252805027,
+      "coverage": "Workload: Human ATAC sequencing (bulk and single-cell). Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Bulk versus single-cell ATAC is not identifiable; the category covers both.",
+      "coverage_zh": "总体类别：人类 ATAC 测序，包含整体和单细胞文库。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能区分整体和单细胞 ATAC；该类别包含两者。",
+      "workload_stock_share_pct": "0.449221243492",
+      "workload_annual_share_pct": "0.342372560056",
+      "model_stock_share_pct": "0.226103233570",
+      "model_annual_share_pct": "0.187258239476"
+    },
+    {
+      "data_id": 35,
+      "identity": "DRR1000045",
+      "workload": "Rice ChIP sequencing",
+      "workload_filter": {
+        "organism_group": "Oryza sativa",
+        "source": "GENOMIC",
+        "strategy": "ChIP-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Oryza sativa",
+        "source": "GENOMIC",
+        "strategy": "ChIP-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 14025664041166,
+      "workload_annual_bases": 2589933129149,
+      "model_stock_bases": 5084146203683,
+      "model_annual_bases": 1905391361027,
+      "coverage": "Workload: Rice ChIP sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：水稻 ChIP 测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.013656108337",
+      "workload_annual_share_pct": "0.011006343856",
+      "model_stock_share_pct": "0.004950186398",
+      "model_annual_share_pct": "0.008097271803"
+    },
+    {
+      "data_id": 36,
+      "identity": "SRR26362943",
+      "workload": "Human genomic libraries with strategy unspecified",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "OTHER"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "OTHER",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 1305263924728668,
+      "workload_annual_bases": 225343561649306,
+      "model_stock_bases": 675725315639820,
+      "model_annual_bases": 113030386464783,
+      "coverage": "Workload: Human genomic libraries with strategy unspecified. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. CUT&RUN is not identifiable. The category is human genomic libraries labelled strategy OTHER; it is not a CUT&RUN share.",
+      "coverage_zh": "总体类别：人类基因组文库，档案中的测序策略未具体注明。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。现有字段不能识别 CUT&RUN。这里统计策略标为 OTHER 的人类基因组文库，不能将其理解为 CUT&RUN 占比。",
+      "workload_stock_share_pct": "1.270872132144",
+      "workload_annual_share_pct": "0.957634271447",
+      "model_stock_share_pct": "0.657920943314",
+      "model_annual_share_pct": "0.480341088964"
+    },
+    {
+      "data_id": 37,
+      "identity": "SRR30894055",
+      "workload": "Yeast Hi-C sequencing",
+      "workload_filter": {
+        "organism_group": "Saccharomyces cerevisiae",
+        "source": "GENOMIC",
+        "strategy": "Hi-C"
+      },
+      "model_filter": {
+        "organism_group": "Saccharomyces cerevisiae",
+        "source": "GENOMIC",
+        "strategy": "Hi-C",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 11358426116400,
+      "workload_annual_bases": 2043798831560,
+      "model_stock_bases": 2977471120489,
+      "model_annual_bases": 1317302637730,
+      "coverage": "Workload: Yeast Hi-C sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：酵母 Hi-C 测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.011059148225",
+      "workload_annual_share_pct": "0.008685456956",
+      "model_stock_share_pct": "0.002899019118",
+      "model_annual_share_pct": "0.005598092719"
+    },
+    {
+      "data_id": 38,
+      "identity": "SRR34546226",
+      "workload": "Human ATAC sequencing (bulk and single-cell)",
+      "workload_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "ATAC-seq"
+      },
+      "model_filter": {
+        "organism_group": "Homo sapiens",
+        "source": "GENOMIC",
+        "strategy": "ATAC-seq",
+        "platform": "ULTIMA",
+        "model": "UG 100"
+      },
+      "workload_stock_bases": 461377874706272,
+      "workload_annual_bases": 80564631398962,
+      "model_stock_bases": 1849980254869,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Human ATAC sequencing (bulk and single-cell). Model combination: Same workload, submitted source GENOMIC, platform ULTIMA, model UG 100. Bulk versus single-cell ATAC is not identifiable.",
+      "coverage_zh": "总体类别：人类 ATAC 测序，包含整体和单细胞文库。具体组合：上述类别中，提交的来源为基因组，平台为 ULTIMA，型号为 UG 100 的部分。现有字段不能区分整体和单细胞 ATAC。",
+      "workload_stock_share_pct": "0.449221243492",
+      "workload_annual_share_pct": "0.342372560056",
+      "model_stock_share_pct": "0.001801235985",
+      "model_annual_share_pct": "0.000000000000"
+    },
+    {
+      "data_id": 39,
+      "identity": "DRR1009870",
+      "workload": "Rice bisulfite sequencing",
+      "workload_filter": {
+        "organism_group": "Oryza sativa",
+        "source": "GENOMIC",
+        "strategy": "Bisulfite-Seq"
+      },
+      "model_filter": {
+        "organism_group": "Oryza sativa",
+        "source": "GENOMIC",
+        "strategy": "Bisulfite-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina HiSeq 4000"
+      },
+      "workload_stock_bases": 21486673265691,
+      "workload_annual_bases": 2512798526468,
+      "model_stock_bases": 1808902787284,
+      "model_annual_bases": 312912757506,
+      "coverage": "Workload: Rice bisulfite sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina HiSeq 4000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：水稻亚硫酸氢盐测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina HiSeq 4000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.020920530897",
+      "workload_annual_share_pct": "0.010678547763",
+      "model_stock_share_pct": "0.001761240848",
+      "model_annual_share_pct": "0.001329773872"
+    },
+    {
+      "data_id": 40,
+      "identity": "SRR30515680",
+      "workload": "Community amplicon sequencing (all markers)",
+      "workload_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON"
+      },
+      "model_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON",
+        "platform": "ILLUMINA",
+        "model": "Illumina MiSeq"
+      },
+      "workload_stock_bases": 797626310720624,
+      "workload_annual_bases": 236236295732518,
+      "model_stock_bases": 240595464418205,
+      "model_annual_bases": 45527599101921,
+      "coverage": "Workload: Community amplicon sequencing (all markers). Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model Illumina MiSeq. ITS targets are not recorded and this run has a missing organism label. All metagenomic amplicons are used as a broader category.",
+      "coverage_zh": "总体类别：群落扩增子测序，包含所有标记类型。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 Illumina MiSeq 的部分。档案未记录 ITS 靶标，且该测序运行缺少生物名称。这里使用包含所有标记类型的宏基因组扩增子类别。",
+      "workload_stock_share_pct": "0.776610025724",
+      "workload_annual_share_pct": "1.003924724085",
+      "model_stock_share_pct": "0.234256126333",
+      "model_annual_share_pct": "0.193476968579"
+    },
+    {
+      "data_id": 41,
+      "identity": "SRR30515673",
+      "workload": "Community amplicon sequencing (all markers)",
+      "workload_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON"
+      },
+      "model_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON",
+        "platform": "ILLUMINA",
+        "model": "Illumina MiSeq"
+      },
+      "workload_stock_bases": 797626310720624,
+      "workload_annual_bases": 236236295732518,
+      "model_stock_bases": 240595464418205,
+      "model_annual_bases": 45527599101921,
+      "coverage": "Workload: Community amplicon sequencing (all markers). Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model Illumina MiSeq. 16S targets are not recorded and this run has a missing organism label. The broader category is the same as Data 40.",
+      "coverage_zh": "总体类别：群落扩增子测序，包含所有标记类型。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 Illumina MiSeq 的部分。档案未记录 16S 靶标，且该测序运行缺少生物名称。这里与数据 40 使用同一个较宽类别。",
+      "workload_stock_share_pct": "0.776610025724",
+      "workload_annual_share_pct": "1.003924724085",
+      "model_stock_share_pct": "0.234256126333",
+      "model_annual_share_pct": "0.193476968579"
+    },
+    {
+      "data_id": 42,
+      "identity": "DRR1051020",
+      "workload": "Viral amplicons labelled SARS-CoV-2 / VIRAL RNA",
+      "workload_filter": {
+        "organism_group": "Severe acute respiratory syndrome coronavirus 2",
+        "source": "VIRAL RNA",
+        "strategy": "AMPLICON"
+      },
+      "model_filter": {
+        "organism_group": "Severe acute respiratory syndrome coronavirus 2",
+        "source": "VIRAL RNA",
+        "strategy": "AMPLICON",
+        "platform": "ILLUMINA",
+        "model": "NextSeq 1000"
+      },
+      "workload_stock_bases": 2913823310872541,
+      "workload_annual_bases": 9638141551410,
+      "model_stock_bases": 10995574488121,
+      "model_annual_bases": 1252779135137,
+      "coverage": "Workload: Viral amplicons labelled SARS-CoV-2 / VIRAL RNA. Model combination: Same workload, submitted source VIRAL RNA, platform ILLUMINA, model NextSeq 1000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：档案标记为 SARS-CoV-2、来源为病毒 RNA 的扩增子测序。具体组合：上述类别中，提交的来源为病毒 RNA，平台为 ILLUMINA，型号为 NextSeq 1000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "2.837048334535",
+      "workload_annual_share_pct": "0.040958856757",
+      "model_stock_share_pct": "0.010705857206",
+      "model_annual_share_pct": "0.005323889556"
+    },
+    {
+      "data_id": 43,
+      "identity": "ERR7749063",
+      "workload": "Amplicons labelled freshwater metagenome",
+      "workload_filter": {
+        "organism_group": "freshwater metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON"
+      },
+      "model_filter": {
+        "organism_group": "freshwater metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "AMPLICON",
+        "platform": "ILLUMINA",
+        "model": "Illumina MiSeq"
+      },
+      "workload_stock_bases": 14365670768258,
+      "workload_annual_bases": 2182528358847,
+      "model_stock_bases": 3880639009765,
+      "model_annual_bases": 570588319782,
+      "coverage": "Workload: Amplicons labelled freshwater metagenome. Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model Illumina MiSeq. Only the exact freshwater metagenome material label is counted; marker targets and all possible freshwater labels cannot be identified.",
+      "coverage_zh": "总体类别：材料标记为 freshwater metagenome 的扩增子测序。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 Illumina MiSeq 的部分。仅统计名称恰为 freshwater metagenome 的材料；不能据此识别标记靶标或覆盖所有淡水材料名称。",
+      "workload_stock_share_pct": "0.013987156385",
+      "workload_annual_share_pct": "0.009275010742",
+      "model_stock_share_pct": "0.003778389856",
+      "model_annual_share_pct": "0.002424808261"
+    },
+    {
+      "data_id": 44,
+      "identity": "ERR11252400",
+      "workload": "Tuberculosis whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Mycobacterium tuberculosis",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Mycobacterium tuberculosis",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "NextSeq 2000"
+      },
+      "workload_stock_bases": 203963804452924,
+      "workload_annual_bases": 39589546391507,
+      "model_stock_bases": 10195062494231,
+      "model_annual_bases": 3816025714150,
+      "coverage": "Workload: Tuberculosis whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model NextSeq 2000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：结核分枝杆菌全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 NextSeq 2000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.198589656953",
+      "workload_annual_share_pct": "0.168242243701",
+      "model_stock_share_pct": "0.009926437530",
+      "model_annual_share_pct": "0.016216824558"
+    },
+    {
+      "data_id": 45,
+      "identity": "DRR171213",
+      "workload": "E. coli whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Escherichia coli",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Escherichia coli",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina MiSeq"
+      },
+      "workload_stock_bases": 332555984618483,
+      "workload_annual_bases": 40604925099399,
+      "model_stock_bases": 83205751231116,
+      "model_annual_bases": 3765870567818,
+      "coverage": "Workload: E. coli whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina MiSeq. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：大肠杆菌全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina MiSeq 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.323793621522",
+      "workload_annual_share_pct": "0.172557261366",
+      "model_stock_share_pct": "0.081013401558",
+      "model_annual_share_pct": "0.016003682072"
+    },
+    {
+      "data_id": 46,
+      "identity": "SRR30502372",
+      "workload": "Yeast whole-genome sequencing",
+      "workload_filter": {
+        "organism_group": "Saccharomyces cerevisiae",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Saccharomyces cerevisiae",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 150234902723938,
+      "workload_annual_bases": 19104998169620,
+      "model_stock_bases": 26043561254940,
+      "model_annual_bases": 4522438473265,
+      "coverage": "Workload: Yeast whole-genome sequencing. Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Species labels include explicitly stated strain/subspecies suffix pooling; layout is not a filter.",
+      "coverage_zh": "总体类别：酵母全基因组测序。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。物种名称按说明合并明确的品系或亚种后缀；这里没有按单端或双端筛选。",
+      "workload_stock_share_pct": "0.146276433088",
+      "workload_annual_share_pct": "0.081189810214",
+      "model_stock_share_pct": "0.025357351562",
+      "model_annual_share_pct": "0.019218840959"
+    },
+    {
+      "data_id": 47,
+      "identity": "ERR3152366",
+      "workload": "Shotgun metagenomics (all community types)",
+      "workload_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": null,
+        "source": "METAGENOMIC",
+        "strategy": "WGS",
+        "platform": "OXFORD_NANOPORE",
+        "model": "GridION"
+      },
+      "workload_stock_bases": 7512601634853483,
+      "workload_annual_bases": 2352763560889249,
+      "model_stock_bases": 9161293639721,
+      "model_annual_bases": 2302133211790,
+      "coverage": "Workload: Shotgun metagenomics (all community types). Model combination: Same workload, submitted source METAGENOMIC, platform OXFORD_NANOPORE, model GridION. Mock-community identity is not recorded; all shotgun metagenomes are used as a broader category.",
+      "coverage_zh": "总体类别：宏基因组鸟枪法测序，包含所有群落类型。具体组合：上述类别中，提交的来源为宏基因组，平台为 OXFORD_NANOPORE，型号为 GridION 的部分。档案字段不能识别模拟群落。这里使用包含所有群落类型的宏基因组鸟枪法类别。",
+      "workload_stock_share_pct": "7.314655585552",
+      "workload_annual_share_pct": "9.998453037789",
+      "model_stock_share_pct": "0.008919906971",
+      "model_annual_share_pct": "0.009783291100"
+    },
+    {
+      "data_id": 48,
+      "identity": "DRR1003246",
+      "workload": "Community RNA labelled food fermentation metagenome",
+      "workload_filter": {
+        "organism_group": "food fermentation metagenome",
+        "source": "METATRANSCRIPTOMIC",
+        "strategy": "RNA-Seq"
+      },
+      "model_filter": {
+        "organism_group": "food fermentation metagenome",
+        "source": "METATRANSCRIPTOMIC",
+        "strategy": "RNA-Seq",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 4198224376311,
+      "workload_annual_bases": 2382878571507,
+      "model_stock_bases": 2934140209069,
+      "model_annual_bases": 2280538755429,
+      "coverage": "Workload: Community RNA labelled food fermentation metagenome. Model combination: Same workload, submitted source METATRANSCRIPTOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Only the exact food fermentation metagenome material label is counted, rather than every possible fermentation-community description.",
+      "coverage_zh": "总体类别：材料标记为 food fermentation metagenome 的群落 RNA 测序。具体组合：上述类别中，提交的来源为宏转录组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。仅统计名称恰为 food fermentation metagenome 的材料，没有将所有可能的发酵群落名称合并。",
+      "workload_stock_share_pct": "0.004087607313",
+      "workload_annual_share_pct": "0.010126431694",
+      "model_stock_share_pct": "0.002856829912",
+      "model_annual_share_pct": "0.009691521930"
+    },
+    {
+      "data_id": 49,
+      "identity": "DRR1000746",
+      "workload": "Shotgun DNA labelled soil metagenome",
+      "workload_filter": {
+        "organism_group": "soil metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "soil metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "HiSeq X Ten"
+      },
+      "workload_stock_bases": 710211874244232,
+      "workload_annual_bases": 209822862165803,
+      "model_stock_bases": 24667464745883,
+      "model_annual_bases": 6412477611992,
+      "coverage": "Workload: Shotgun DNA labelled soil metagenome. Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model HiSeq X Ten. Only the exact soil metagenome material label is counted.",
+      "coverage_zh": "总体类别：材料标记为 soil metagenome 的鸟枪法 DNA 测序。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 HiSeq X Ten 的部分。仅统计名称恰为 soil metagenome 的材料。",
+      "workload_stock_share_pct": "0.691498831612",
+      "workload_annual_share_pct": "0.891676523937",
+      "model_stock_share_pct": "0.024017513180",
+      "model_annual_share_pct": "0.027250870986"
+    },
+    {
+      "data_id": 50,
+      "identity": "DRR1003638",
+      "workload": "Shotgun DNA labelled human gut metagenome",
+      "workload_filter": {
+        "organism_group": "human gut metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "human gut metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 1517013696851453,
+      "workload_annual_bases": 354371353949802,
+      "model_stock_bases": 665605215507065,
+      "model_annual_bases": 181853838844578,
+      "coverage": "Workload: Shotgun DNA labelled human gut metagenome. Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Only the exact human gut metagenome material label is counted; other gut or fecal labels are not silently merged.",
+      "coverage_zh": "总体类别：材料标记为 human gut metagenome 的鸟枪法 DNA 测序。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。仅统计名称恰为 human gut metagenome 的材料，没有合并其他肠道或粪便材料名称。",
+      "workload_stock_share_pct": "1.477042607923",
+      "workload_annual_share_pct": "1.505958949426",
+      "model_stock_share_pct": "0.648067492997",
+      "model_annual_share_pct": "0.772817591047"
+    },
+    {
+      "data_id": 51,
+      "identity": "SRR27931704",
+      "workload": "Shotgun DNA labelled food metagenome",
+      "workload_filter": {
+        "organism_group": "food metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "food metagenome",
+        "source": "METAGENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina NovaSeq 6000"
+      },
+      "workload_stock_bases": 27722335093099,
+      "workload_annual_bases": 2328795798347,
+      "model_stock_bases": 16301476683252,
+      "model_annual_bases": 1063603993140,
+      "coverage": "Workload: Shotgun DNA labelled food metagenome. Model combination: Same workload, submitted source METAGENOMIC, platform ILLUMINA, model Illumina NovaSeq 6000. Honey is not identifiable; the exact food metagenome label is a broader category.",
+      "coverage_zh": "总体类别：材料标记为 food metagenome 的鸟枪法 DNA 测序。具体组合：上述类别中，提交的来源为宏基因组，平台为 ILLUMINA，型号为 Illumina NovaSeq 6000 的部分。档案字段不能识别蜂蜜。这里使用较宽的 food metagenome 材料类别。",
+      "workload_stock_share_pct": "0.026991892169",
+      "workload_annual_share_pct": "0.009896598116",
+      "model_stock_share_pct": "0.015871956650",
+      "model_annual_share_pct": "0.004519958891"
+    },
+    {
+      "data_id": 52,
+      "identity": "ERR2189808",
+      "workload": "Chinese hamster whole-genome sequencing (includes CHO)",
+      "workload_filter": {
+        "organism_group": "Cricetulus griseus",
+        "source": "GENOMIC",
+        "strategy": "WGS"
+      },
+      "model_filter": {
+        "organism_group": "Cricetulus griseus",
+        "source": "GENOMIC",
+        "strategy": "WGS",
+        "platform": "ILLUMINA",
+        "model": "Illumina HiSeq 2500"
+      },
+      "workload_stock_bases": 5616113859509,
+      "workload_annual_bases": 257878244223,
+      "model_stock_bases": 735299270329,
+      "model_annual_bases": 0,
+      "coverage": "Workload: Chinese hamster whole-genome sequencing (includes CHO). Model combination: Same workload, submitted source GENOMIC, platform ILLUMINA, model Illumina HiSeq 2500. CHO cell-line identity and assembly purpose are not identifiable; Chinese hamster genomic WGS is a broader category.",
+      "coverage_zh": "总体类别：中国仓鼠全基因组测序，包含 CHO 相关输入。具体组合：上述类别中，提交的来源为基因组，平台为 ILLUMINA，型号为 Illumina HiSeq 2500 的部分。档案字段不能识别 CHO 细胞系和组装用途；这里使用较宽的中国仓鼠全基因组类别。",
+      "workload_stock_share_pct": "0.005468137485",
+      "workload_annual_share_pct": "0.001095895719",
+      "model_stock_share_pct": "0.000715925212",
+      "model_annual_share_pct": "0.000000000000"
+    }
+  ]
+}

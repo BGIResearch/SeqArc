@@ -1,0 +1,22 @@
+{
+  "compress": [
+    "colord",
+    "compress-ont",
+    "-q",
+    "org",
+    "-i",
+    "org",
+    "-t",
+    "16",
+    "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_8/WY_reads.fq.gz",
+    "benchmark/logs/Data_8/WY_reads.fq.gz/CoLoRd_noref/repeat_01/reads.colord"
+  ],
+  "decompress": [
+    "colord",
+    "decompress",
+    "benchmark/logs/Data_8/WY_reads.fq.gz/CoLoRd_noref/repeat_01/reads.colord",
+    "benchmark/logs/Data_8/WY_reads.fq.gz/CoLoRd_noref/repeat_01/restored.fastq"
+  ],
+  "input": "SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_8/WY_reads.fq.gz",
+  "reference_accession": ""
+}

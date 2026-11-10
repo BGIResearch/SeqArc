@@ -1,0 +1,56 @@
+[2026-10-30 21:33:52] [info] [SeqArc] qual hist unique:31
+[2026-10-30 21:33:54] [info] [SeqArc] qual method selected: ARTH+model (sample 23774091 -> 6701357, scale 2689.7, est total 18043716416)
+[2026-10-30 21:33:54] [info] [SeqArc] PerfectMini index SOURCE_ROOT/index/SolTub.fa.pmini_os_17_12_2 found, skip building.
+[2026-10-30 21:33:55] [info] [SeqArc] PerfectMini index loaded
+[2026-10-30 21:33:55] [info] [SeqArc] thread split: total=16 gz=2 workers=14 (expand to 16 after read)
+[2026-10-30 21:42:46] [info] [SeqArc] SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_17/SRR14993639_2.fastq.gz is end
+[2026-10-30 21:42:46] [info] [SeqArc] ReadFastq done
+[2026-10-30 21:42:46] [info] [SeqArc] read done: expanded encode workers 14 -> 16
+[2026-10-30 21:42:56] [info] [SeqArc] filesz:27074938936, comsz:13594699176, ratio:    1.99
+[2026-10-30 21:42:56] [info] [SeqArc] compress stat
+******************************************************************************************
+compress profile list:
+name                 originSize                 compress                   ratio
+------------------------------------------------------------------------------------------
+Total                75535316800                13594699176                5.56    
+name                 4478071576                 111729                     40079.76
+seq                  35394328504                3621386679                 9.77    
+qual                 35394328504                9913761060                 3.57    
+seqlen               537176432                  40108876                   13.39   
+******************************************************************************************
+[2026-10-30 21:42:56] [info] [SeqArc] compress time
+******************************************************************************************
+Time profile list:
+process                                 elapsed(s)
+ReadTime                                  530.72
+ParseTime                                  29.12
+NameTime                                   73.25
+SeqTime                                   448.78
+AlignTime                                6025.66
+QualTime                                  865.27
+SeqLenTime                                  3.08
+BlockHashTime                              12.93
+TotalCompressTime                           5.49
+WriteTime                                   8.37
+******************************************************************************************
+[2026-10-30 21:42:56] [info] [SeqArc] align stat
+******************************************************************************************
+mapcount            unmapcount          forward             reverse             
+95479252            38814856            47807858            47671394            
+Total Block Count   Align Block Count   Fqz Block Count                    Ratio
+1441                1441                0                                   1.00
+TotalBase:35260034396 AlignBase:25056748485 DegeBase:58303167 
+TotalAnchor:0 ShortReads:0 lesshit1:0 lesshit2:0
+******************************************************************************************
+[2026-10-30 21:42:56] [info] [SeqArc] read stat
+******************************************************************************************
+fastq Statistics:
+------------------------------------------------------------------------------------------
+Reads_Num: 134294108
+Reads_Base: 35260034396
+Shortest,Longest: 35,265
+Mean_len:  262.56
+GC_Ratio:   37.66
+******************************************************************************************
+[2026-10-30 21:42:56] [info] [SeqArc] COMMAND: SOURCE_ROOT/codex/newdata_benchmark/tools/SeqArc compress -r SOURCE_ROOT/index/SolTub.fa -t 16 -i SOURCE_ROOT/data/fastq/new/v1.1.0/data/Data_17/SRR14993639_2.fastq.gz -o benchmark/logs/Data_17/SRR14993639_2.fastq.gz/SeqArc_ref/repeat_01/reads.fastq.arc 
+[2026-10-30 21:42:56] [info] [SeqArc] [PerfectMiniRef] Align stats: total=134294108 L1_hit=1653(0.00%) L2_hit=95477599(71.10%) miss=38814856(28.90%) indel_hit=15063051(15.78% of 95479252 hits)
